@@ -1,0 +1,43 @@
+name: Mirror Site
+
+on:
+  schedule:
+    - cron: '0 */1 * * *'   # هر ۴ ساعت یک‌بار (میتونی تغییرش بدی)
+  workflow_dispatch:         # امکان اجرای دستی از تب Actions
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download single page with wget
+        run: |
+          mkdir -p mirror
+          wget \
+            --convert-links \
+            --adjust-extension \
+            --page-requisites \
+            --span-hosts \
+            -e robots=off \
+            -P mirror \
+            https://www.vpngate.net/en/
+
+      - name: Flatten output into docs/
+        run: |
+          rm -rf docs
+          mkdir -p docs
+          cp -r mirror/www.vpngate.net/* docs/
+          touch docs/.nojekyll
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update mirror $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
