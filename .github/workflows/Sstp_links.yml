@@ -22,9 +22,8 @@ jobs:
 
       - name: Build sstp:// links
         run: |
-          mkdir -p docs
-          rm -f docs/sstp_links.txt
-          touch docs/sstp_links.txt
+          rm -f sstp_links.txt
+          touch sstp_links.txt
           while IFS= read -r line; do
             line=$(echo "$line" | tr -d '\r' | xargs)
             [ -z "$line" ] && continue
@@ -32,9 +31,16 @@ jobs:
               line="${line}:443"
             fi
             encoded=$(printf '%s@vpn:vpn' "$line" | base64 -w 0)
-            echo "sstp://${encoded}" >> docs/sstp_links.txt
+            echo "sstp://${encoded}" >> sstp_links.txt
           done < hosts.txt
-          touch docs/.nojekyll
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add sstp_links.txt
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update sstp links $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push          touch docs/.nojekyll
 
       - name: Commit and push
         run: |
