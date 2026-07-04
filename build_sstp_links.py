@@ -29,11 +29,12 @@ def build_country_map():
     reader = csv.DictReader(lines[start:])
     country_map = {}
     for row in reader:
-        host = row.get("#HostName", "").strip()
+        host = (row.get("#HostName") or "").strip()
         if not host:
             continue
-        country_map[host] = (row.get("CountryLong", "Unknown").strip(),
-                              row.get("CountryShort", "??").strip())
+        country_long = (row.get("CountryLong") or "Unknown").strip()
+        country_short = (row.get("CountryShort") or "??").strip()
+        country_map[host] = (country_long, country_short)
     return country_map
 
 def main():
