@@ -1,0 +1,45 @@
+name: Generate SSTP Links
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'   # هر ۴ ساعت یک‌بار
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch host list
+        run: |
+          curl -s -o hosts.txt \
+            https://raw.githubusercontent.com/Delta-Kronecker/Vpn-Gate/refs/heads/main/sstp_hosts.txt
+
+      - name: Build sstp:// links
+        run: |
+          mkdir -p docs
+          rm -f docs/sstp_links.txt
+          touch docs/sstp_links.txt
+          while IFS= read -r line; do
+            line=$(echo "$line" | tr -d '\r' | xargs)
+            [ -z "$line" ] && continue
+            if [[ "$line" != *:* ]]; then
+              line="${line}:443"
+            fi
+            encoded=$(printf '%s@vpn:vpn' "$line" | base64 -w 0)
+            echo "sstp://${encoded}" >> docs/sstp_links.txt
+          done < hosts.txt
+          touch docs/.nojekyll
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/sstp_links.txt docs/.nojekyll
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update sstp links $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
