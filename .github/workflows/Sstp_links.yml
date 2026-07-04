@@ -15,24 +15,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Fetch host list
-        run: |
-          curl -s -o hosts.txt \
-            https://raw.githubusercontent.com/Delta-Kronecker/Vpn-Gate/refs/heads/main/sstp_hosts.txt
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
 
-      - name: Build sstp:// links
-        run: |
-          rm -f sstp_links.txt
-          touch sstp_links.txt
-          while IFS= read -r line; do
-            line=$(echo "$line" | tr -d '\r' | xargs)
-            [ -z "$line" ] && continue
-            if [[ "$line" != *:* ]]; then
-              line="${line}:443"
-            fi
-            encoded=$(printf '%s@vpn:vpn' "$line" | base64 -w 0)
-            echo "sstp://${encoded}" >> sstp_links.txt
-          done < hosts.txt
+      - name: Build sstp:// links with country names
+        run: python3 build_sstp_links.py
 
       - name: Commit and push
         run: |
