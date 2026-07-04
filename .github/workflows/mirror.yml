@@ -25,7 +25,10 @@ jobs:
             --span-hosts \
             -e robots=off \
             -P mirror \
-            https://www.vpngate.net/en/
+            https://www.vpngate.net/en/ || true
+
+          # مطمئن می‌شویم صفحه‌ی اصلی واقعاً دانلود شده، وگرنه اجرا را متوقف کن
+          test -f mirror/www.vpngate.net/en/index.html
 
       - name: Flatten output into docs/
         run: |
