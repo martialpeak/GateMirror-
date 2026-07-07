@@ -1,11 +1,9 @@
 Japan (JP) - sstp://bGF1ZC5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
-Japan (JP) - sstp://cHVibGljLXZwbi0xMDUub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
-Korea Republic of (KR) - sstp://dnBuNTk1Mjk4MjgzLm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
-Russian Federation (RU) - sstp://dnBuMTY5NjUzNjMwLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Unknown (??) - sstp://bjI2Lm9wZW5ndy5uZXQ6MTE5NEB2cG46dnBu
+Japan (JP) - sstp://bjI2Lm9wZW5ndy5uZXQ6MTE5NEB2cG46dnBu
 Unknown (??) - sstp://cHVibGljLXZwbi00OC5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
 Unknown (??) - sstp://cHVibGljLXZwbi03OS5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
 Unknown (??) - sstp://cHVibGljLXZwbi0xMDQub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
+Unknown (??) - sstp://cHVibGljLXZwbi0xMDUub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0xMTgub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0xOTUub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0yMTYub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
@@ -23,6 +21,7 @@ Unknown (??) - sstp://dnBuMTQwMjEzODMwLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuMTUwMjE3NzI3Lm9wZW5ndy5uZXQ6MTk1NEB2cG46dnBu
 Unknown (??) - sstp://dnBuMTUxOTM0NjA0Lm9wZW5ndy5uZXQ6MTYyNkB2cG46dnBu
 Unknown (??) - sstp://dnBuMTY1ODU2NTgxLm9wZW5ndy5uZXQ6MTg1M0B2cG46dnBu
+Unknown (??) - sstp://dnBuMTY5NjUzNjMwLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuMTYyOTU0NDQwLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuMTc4MDA1MTA5Lm9wZW5ndy5uZXQ6MTYyN0B2cG46dnBu
 Unknown (??) - sstp://dnBuMTc4MjM5OTY5Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
@@ -78,6 +77,7 @@ Unknown (??) - sstp://dnBuNTc1ODg1ODQ0Lm9wZW5ndy5uZXQ6MTU4NkB2cG46dnBu
 Unknown (??) - sstp://dnBuNTcxODM4NjE1Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuNTgyNTEwMjI1Lm9wZW5ndy5uZXQ6MTQxN0B2cG46dnBu
 Unknown (??) - sstp://dnBuNTgzNzY0MDMyLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
+Unknown (??) - sstp://dnBuNTk1Mjk4MjgzLm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
 Unknown (??) - sstp://dnBuNTk4MDY5NzE0Lm9wZW5ndy5uZXQ6MTg2NEB2cG46dnBu
 Unknown (??) - sstp://dnBuNjI3MzIyNTgxLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuNjM2NDc2NzY2Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
