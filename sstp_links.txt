@@ -1,12 +1,13 @@
-Japan (JP) - sstp://bGF1ZC5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
 Japan (JP) - sstp://bjI2Lm9wZW5ndy5uZXQ6MTE5NEB2cG46dnBu
-Japan (JP) - sstp://cHVibGljLXZwbi0xNjMub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
+Korea Republic of (KR) - sstp://dnBuNzAxNjYyNTg4Lm9wZW5ndy5uZXQ6MTM5N0B2cG46dnBu
 Romania (RO) - sstp://b3Blbmd3Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://aWRjcm1uMi5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
+Unknown (??) - sstp://bGF1ZC5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
 Unknown (??) - sstp://cHVibGljLXZwbi03Ni5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
 Unknown (??) - sstp://cHVibGljLXZwbi04NC5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
 Unknown (??) - sstp://cHVibGljLXZwbi04OC5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
 Unknown (??) - sstp://cHVibGljLXZwbi0xMzcub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
+Unknown (??) - sstp://cHVibGljLXZwbi0xNjMub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0xODkub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0xOTcub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0yMDEub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
@@ -72,7 +73,6 @@ Unknown (??) - sstp://dnBuNjAzMTA5NTUyLm9wZW5ndy5uZXQ6MTgyNkB2cG46dnBu
 Unknown (??) - sstp://dnBuNjQ4NTM1OTEwLm9wZW5ndy5uZXQ6MTM0NEB2cG46dnBu
 Unknown (??) - sstp://dnBuNjUzNTI4ODQwLm9wZW5ndy5uZXQ6MTY3NEB2cG46dnBu
 Unknown (??) - sstp://dnBuNjk5NTU3MjA3Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Unknown (??) - sstp://dnBuNzAxNjYyNTg4Lm9wZW5ndy5uZXQ6MTM5N0B2cG46dnBu
 Unknown (??) - sstp://dnBuNzE4ODIwMTcxLm9wZW5ndy5uZXQ6MTM5OUB2cG46dnBu
 Unknown (??) - sstp://dnBuNzE5OTU1NzQ3Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuNzM2MDQ3NzE0Lm9wZW5ndy5uZXQ6MTMyNEB2cG46dnBu
