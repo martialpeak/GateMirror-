@@ -1,20 +1,23 @@
 Japan (JP) - sstp://bGF1ZC5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
 Japan (JP) - sstp://bjI2Lm9wZW5ndy5uZXQ6MTE5NEB2cG46dnBu
-Japan (JP) - sstp://cHVibGljLXZwbi02MS5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
-Japan (JP) - sstp://cHVibGljLXZwbi0xNjUub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
-Japan (JP) - sstp://cHVibGljLXZwbi0yMjcub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
-Korea Republic of (KR) - sstp://dnBuODE5MzU4Mzc2Lm9wZW5ndy5uZXQ6MTI5OEB2cG46dnBu
+Japan (JP) - sstp://cHVibGljLXZwbi0yNDAub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
+Japan (JP) - sstp://dnBuNDk5NjM2MDE0Lm9wZW5ndy5uZXQ6MTIzNEB2cG46dnBu
+Japan (JP) - sstp://dnBuOTkwMjkzMzAxLm9wZW5ndy5uZXQ6MTUxNkB2cG46dnBu
+Korea Republic of (KR) - sstp://dnBuNjk5NTU3MjA3Lm9wZW5ndy5uZXQ6MTI5NkB2cG46dnBu
+Korea Republic of (KR) - sstp://dnBuODUxODExNzQwLm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
 Romania (RO) - sstp://b3Blbmd3Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://ZmluZy5vcGVuZ3cubmV0Ojk5MkB2cG46dnBu
+Unknown (??) - sstp://cHVibGljLXZwbi02MS5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
 Unknown (??) - sstp://cHVibGljLXZwbi0xMTMub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0xMjYub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0xNTEub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0xNTUub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0xNTcub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
+Unknown (??) - sstp://cHVibGljLXZwbi0xNjUub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0xODMub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0yMjEub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
+Unknown (??) - sstp://cHVibGljLXZwbi0yMjcub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0yMzMub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
-Unknown (??) - sstp://cHVibGljLXZwbi0yNDAub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0yNDEub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0zOC5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
 Unknown (??) - sstp://dnBuMTA3NTAyMDAzLm9wZW5ndy5uZXQ6MTI2M0B2cG46dnBu
@@ -58,7 +61,6 @@ Unknown (??) - sstp://dnBuNDcyNDkyNzIyLm9wZW5ndy5uZXQ6MTY2N0B2cG46dnBu
 Unknown (??) - sstp://dnBuNDg0Mzc0NTA5Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuNDg3MTIwODYxLm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
 Unknown (??) - sstp://dnBuNDg4NTE0MzMzLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Unknown (??) - sstp://dnBuNDk5NjM2MDE0Lm9wZW5ndy5uZXQ6MTIzNEB2cG46dnBu
 Unknown (??) - sstp://dnBuNTE1NDEzMjg3Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
 Unknown (??) - sstp://dnBuNTE5Njk5NDE3Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuNTIxNjYyOTM5Lm9wZW5ndy5uZXQ6MTM5M0B2cG46dnBu
@@ -75,7 +77,6 @@ Unknown (??) - sstp://dnBuNjEwOTkwNDYzLm9wZW5ndy5uZXQ6MTQwMEB2cG46dnBu
 Unknown (??) - sstp://dnBuNjI0NDcyNjU0Lm9wZW5ndy5uZXQ6MTU4OEB2cG46dnBu
 Unknown (??) - sstp://dnBuNjI0OTg0NjEzLm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
 Unknown (??) - sstp://dnBuNjU1OTA5NTkxLm9wZW5ndy5uZXQ6MTc0OUB2cG46dnBu
-Unknown (??) - sstp://dnBuNjk5NTU3MjA3Lm9wZW5ndy5uZXQ6MTI5NkB2cG46dnBu
 Unknown (??) - sstp://dnBuNzAxMjM1NjgyLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuNzAzNTYxNjQyLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuNzQ4MzU5NjcyLm9wZW5ndy5uZXQ6MTQ1OEB2cG46dnBu
@@ -83,7 +84,7 @@ Unknown (??) - sstp://dnBuNzY1MjM5Mzc4Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
 Unknown (??) - sstp://dnBuNzYzNDk2MDE5Lm9wZW5ndy5uZXQ6MTQ5M0B2cG46dnBu
 Unknown (??) - sstp://dnBuNzcxMTUxODMxLm9wZW5ndy5uZXQ6MTc2MUB2cG46dnBu
 Unknown (??) - sstp://dnBuODAxODQxMDc5Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Unknown (??) - sstp://dnBuODUxODExNzQwLm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
+Unknown (??) - sstp://dnBuODE5MzU4Mzc2Lm9wZW5ndy5uZXQ6MTI5OEB2cG46dnBu
 Unknown (??) - sstp://dnBuODcyMzMwNjAyLm9wZW5ndy5uZXQ6MTc1OEB2cG46dnBu
 Unknown (??) - sstp://dnBuODg3ODE5NzA1Lm9wZW5ndy5uZXQ6MTkwMkB2cG46dnBu
 Unknown (??) - sstp://dnBuODk2OTc1NDIzLm9wZW5ndy5uZXQ6MTM1N0B2cG46dnBu
@@ -95,5 +96,4 @@ Unknown (??) - sstp://dnBuOTU1NTU1MzU5Lm9wZW5ndy5uZXQ6MTYzN0B2cG46dnBu
 Unknown (??) - sstp://dnBuOTY0NjMwODAzLm9wZW5ndy5uZXQ6MTU2OEB2cG46dnBu
 Unknown (??) - sstp://dnBuOTY2MzMwMDA4Lm9wZW5ndy5uZXQ6MTczNkB2cG46dnBu
 Unknown (??) - sstp://dnBuOTgwOTA5MTAxLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Unknown (??) - sstp://dnBuOTkwMjkzMzAxLm9wZW5ndy5uZXQ6MTUxNkB2cG46dnBu
 Unknown (??) - sstp://dnBuOTkzODk0MjAxLm9wZW5ndy5uZXQ6MTY1MUB2cG46dnBu
