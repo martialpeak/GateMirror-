@@ -1,10 +1,10 @@
 Japan (JP) - sstp://bjI2Lm9wZW5ndy5uZXQ6MTE5NEB2cG46dnBu
-Japan (JP) - sstp://dnBuMTgyOTk0Mjk0Lm9wZW5ndy5uZXQ6MTc2NUB2cG46dnBu
+Japan (JP) - sstp://cHVibGljLXZwbi03NS5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
 Romania (RO) - sstp://b3Blbmd3Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
+United States (US) - sstp://dnBuOTI1MzA2Njc3Lm9wZW5ndy5uZXQ6MTM3MUB2cG46dnBu
 Unknown (??) - sstp://X3VucmVnaXN0ZXJlZF92cG45NTIwMjE3NDYub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://bGF1ZC5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
 Unknown (??) - sstp://cHVibGljLXZwbi02Ny5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
-Unknown (??) - sstp://cHVibGljLXZwbi03NS5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
 Unknown (??) - sstp://cHVibGljLXZwbi03OC5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
 Unknown (??) - sstp://cHVibGljLXZwbi04NC5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
 Unknown (??) - sstp://cHVibGljLXZwbi05NC5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
@@ -26,6 +26,7 @@ Unknown (??) - sstp://dnBuMTQ3ODYzNTE2Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuMTU4MTU5NzgwLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuMTc4MjM5OTY5Lm9wZW5ndy5uZXQ6MTYzNEB2cG46dnBu
 Unknown (??) - sstp://dnBuMTcyMTk0MDkwLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
+Unknown (??) - sstp://dnBuMTgyOTk0Mjk0Lm9wZW5ndy5uZXQ6MTc2NUB2cG46dnBu
 Unknown (??) - sstp://dnBuMjA5MjkxMjE3Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
 Unknown (??) - sstp://dnBuMjAxMTY1Nzk5Lm9wZW5ndy5uZXQ6MTg3NUB2cG46dnBu
 Unknown (??) - sstp://dnBuMjE0NzEwMjQ1Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
@@ -115,7 +116,6 @@ Unknown (??) - sstp://dnBuODY3MTI0ODA4Lm9wZW5ndy5uZXQ6MTkxOEB2cG46dnBu
 Unknown (??) - sstp://dnBuODg2MTkxMDIxLm9wZW5ndy5uZXQ6MTgxNEB2cG46dnBu
 Unknown (??) - sstp://dnBuODk4Mzg4MTI5Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuOTA2NzYzOTUwLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Unknown (??) - sstp://dnBuOTI1MzA2Njc3Lm9wZW5ndy5uZXQ6MTM3MUB2cG46dnBu
 Unknown (??) - sstp://dnBuOTM3NTA5MDY5Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuOTQ5NDQ0ODQxLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuOTQyNzcyNTk5Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
