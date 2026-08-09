@@ -1,6 +1,8 @@
-Korea Republic of (KR) - sstp://dnBuOTQ5MzM5NjIxLm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
+Japan (JP) - sstp://bjI2Lm9wZW5ndy5uZXQ6MTE5NEB2cG46dnBu
+Japan (JP) - sstp://cHVibGljLXZwbi0yMTgub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
+Korea Republic of (KR) - sstp://dnBuOTY1OTk3ODUzLm9wZW5ndy5uZXQ6MTM5MUB2cG46dnBu
 Romania (RO) - sstp://b3Blbmd3Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Unknown (??) - sstp://bjI2Lm9wZW5ndy5uZXQ6MTE5NEB2cG46dnBu
+Russian Federation (RU) - sstp://dnBuOTY2MzQyMjExLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://cGF0aXRvLm9wZW5ndy5uZXQ6MTc1MEB2cG46dnBu
 Unknown (??) - sstp://cHVibGljLXZwbi00MS5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
 Unknown (??) - sstp://cHVibGljLXZwbi00Ni5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
@@ -11,7 +13,6 @@ Unknown (??) - sstp://cHVibGljLXZwbi0xMzYub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0xMzgub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0xNjIub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0xODMub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
-Unknown (??) - sstp://cHVibGljLXZwbi0yMTgub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0yMjAub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0yMzQub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://dnBuMTEwNTMyNzMyLm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
@@ -91,8 +92,7 @@ Unknown (??) - sstp://dnBuODUzOTgwNjA5Lm9wZW5ndy5uZXQ6MTMxM0B2cG46dnBu
 Unknown (??) - sstp://dnBuODY3MDg4MTE3Lm9wZW5ndy5uZXQ6MTU5OEB2cG46dnBu
 Unknown (??) - sstp://dnBuODY4NTU0NjkyLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuODk4NzY1NDIyLm9wZW5ndy5uZXQ6MTk3N0B2cG46dnBu
-Unknown (??) - sstp://dnBuOTY1OTk3ODUzLm9wZW5ndy5uZXQ6MTM5MUB2cG46dnBu
-Unknown (??) - sstp://dnBuOTY2MzQyMjExLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
+Unknown (??) - sstp://dnBuOTQ5MzM5NjIxLm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
 Unknown (??) - sstp://dnBuOTYwNTc2ODk2Lm9wZW5ndy5uZXQ6MTMyMUB2cG46dnBu
 Unknown (??) - sstp://dnBuOTc4Njg5MjM0Lm9wZW5ndy5uZXQ6MTczMUB2cG46dnBu
 Unknown (??) - sstp://dnBuOTgwOTA5MTAxLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
