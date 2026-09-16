@@ -1,8 +1,9 @@
 Japan (JP) - sstp://bGF1ZC5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
 Japan (JP) - sstp://bjI2Lm9wZW5ndy5uZXQ6MTE5NEB2cG46dnBu
-Japan (JP) - sstp://cHVibGljLXZwbi0yMTgub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
-Japan (JP) - sstp://dnBuNzkwNTY3NjczLm9wZW5ndy5uZXQ6MTg5N0B2cG46dnBu
-Korea Republic of (KR) - sstp://dnBuMTA2NjIxMzU1Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
+Japan (JP) - sstp://cHVibGljLXZwbi0yMjUub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
+Japan (JP) - sstp://dnBuNjI0NDcyNjU0Lm9wZW5ndy5uZXQ6MTU4OEB2cG46dnBu
+Korea Republic of (KR) - sstp://dnBuNjg2ODM1MDYzLm9wZW5ndy5uZXQ6MTYzNkB2cG46dnBu
+Russian Federation (RU) - sstp://dnBuMjQxNzczNDcwLm9wZW5ndy5uZXQ6MTk2MUB2cG46dnBu
 Unknown (??) - sstp://X3VucmVnaXN0ZXJlZF92cG45NTIwMjE3NDYub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi00My5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
 Unknown (??) - sstp://cHVibGljLXZwbi03OC5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
@@ -12,11 +13,12 @@ Unknown (??) - sstp://cHVibGljLXZwbi0xNDYub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0xNjIub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0xODQub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0yMDYub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
-Unknown (??) - sstp://cHVibGljLXZwbi0yMjUub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
+Unknown (??) - sstp://cHVibGljLXZwbi0yMTgub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0yMzEub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0yMzQub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0yNTIub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://dnBuMTA0NzE3NjcxLm9wZW5ndy5uZXQ6MTQxOUB2cG46dnBu
+Unknown (??) - sstp://dnBuMTA2NjIxMzU1Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
 Unknown (??) - sstp://dnBuMTEwNTMyNzMyLm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
 Unknown (??) - sstp://dnBuMTExNzY1Mzc3Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuMTEzODc5NjEzLm9wZW5ndy5uZXQ6MTQ0OEB2cG46dnBu
@@ -28,7 +30,6 @@ Unknown (??) - sstp://dnBuMTY2MjQzNjA4Lm9wZW5ndy5uZXQ6MTI2NEB2cG46dnBu
 Unknown (??) - sstp://dnBuMTc4MjM5OTY5Lm9wZW5ndy5uZXQ6MTYzNEB2cG46dnBu
 Unknown (??) - sstp://dnBuMTczNDU4ODY3Lm9wZW5ndy5uZXQ6MTk2OEB2cG46dnBu
 Unknown (??) - sstp://dnBuMTg5MDc1MTg4Lm9wZW5ndy5uZXQ6MTczN0B2cG46dnBu
-Unknown (??) - sstp://dnBuMjQxNzczNDcwLm9wZW5ndy5uZXQ6MTk2MUB2cG46dnBu
 Unknown (??) - sstp://dnBuMjU4MjU0NTMyLm9wZW5ndy5uZXQ6MTU0OEB2cG46dnBu
 Unknown (??) - sstp://dnBuMjY3MTQzNDk0Lm9wZW5ndy5uZXQ6MTUxMkB2cG46dnBu
 Unknown (??) - sstp://dnBuMjc5MTkwMjY1Lm9wZW5ndy5uZXQ6MTkwMUB2cG46dnBu
@@ -58,12 +59,10 @@ Unknown (??) - sstp://dnBuNTYzNTczNjcyLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuNTg2MDAwMDc3Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuNTkxOTMyNjU4Lm9wZW5ndy5uZXQ6MTQ4NEB2cG46dnBu
 Unknown (??) - sstp://dnBuNjA0NDUyMTk2Lm9wZW5ndy5uZXQ6MTUwNkB2cG46dnBu
-Unknown (??) - sstp://dnBuNjI0NDcyNjU0Lm9wZW5ndy5uZXQ6MTU4OEB2cG46dnBu
 Unknown (??) - sstp://dnBuNjI5MDExMTkzLm9wZW5ndy5uZXQ6MTY0MkB2cG46dnBu
 Unknown (??) - sstp://dnBuNjU3MDExNDgwLm9wZW5ndy5uZXQ6MTg2OUB2cG46dnBu
 Unknown (??) - sstp://dnBuNjUxNTY1NTUxLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuNjY1MTU1NTgyLm9wZW5ndy5uZXQ6MTMzN0B2cG46dnBu
-Unknown (??) - sstp://dnBuNjg2ODM1MDYzLm9wZW5ndy5uZXQ6MTYzNkB2cG46dnBu
 Unknown (??) - sstp://dnBuNjg3NzUzOTI3Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuNjg3OTAyMjE4Lm9wZW5ndy5uZXQ6MTQ0M0B2cG46dnBu
 Unknown (??) - sstp://dnBuNjgzMjMwMjQyLm9wZW5ndy5uZXQ6MTU3M0B2cG46dnBu
@@ -79,6 +78,7 @@ Unknown (??) - sstp://dnBuNzQ0NjYwNzYyLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuNzQ4NTM5OTgwLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuNzcyNzgwMzA4Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuNzk1MDY0MjMzLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
+Unknown (??) - sstp://dnBuNzkwNTY3NjczLm9wZW5ndy5uZXQ6MTg5N0B2cG46dnBu
 Unknown (??) - sstp://dnBuODA5Mjc4MDg2Lm9wZW5ndy5uZXQ6MTM1NkB2cG46dnBu
 Unknown (??) - sstp://dnBuODAwNzEwMzg0Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
 Unknown (??) - sstp://dnBuODExNjIzODgyLm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
