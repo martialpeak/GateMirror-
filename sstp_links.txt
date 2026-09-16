@@ -1,5 +1,11 @@
-Japan (JP) - sstp://bGF1ZC5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
+Japan (JP) - sstp://cHVibGljLXZwbi0xNjIub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
+Japan (JP) - sstp://dnBuMzU1NzAzMDY4Lm9wZW5ndy5uZXQ6MTc1MkB2cG46dnBu
+Japan (JP) - sstp://dnBuNTgzNzY0MDMyLm9wZW5ndy5uZXQ6MTQ2NEB2cG46dnBu
+Japan (JP) - sstp://dnBuODM4Njc0MjQzLm9wZW5ndy5uZXQ6MTY3MUB2cG46dnBu
 Japan (JP) - sstp://dnBuOTYwMjczMzIwLm9wZW5ndy5uZXQ6MTU3MUB2cG46dnBu
+Korea Republic of (KR) - sstp://dnBuOTAwMTYzMzkyLm9wZW5ndy5uZXQ6MTQzNkB2cG46dnBu
+Russian Federation (RU) - sstp://dnBuNDUwMzI4NDIyLm9wZW5ndy5uZXQ6MTUyN0B2cG46dnBu
+Unknown (??) - sstp://bGF1ZC5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
 Unknown (??) - sstp://bjI2Lm9wZW5ndy5uZXQ6MTE5NEB2cG46dnBu
 Unknown (??) - sstp://cHVibGljLXZwbi01MS5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
 Unknown (??) - sstp://cHVibGljLXZwbi04NS5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
@@ -10,7 +16,6 @@ Unknown (??) - sstp://cHVibGljLXZwbi0xMzgub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0xNDYub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0xNDcub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0xNTUub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
-Unknown (??) - sstp://cHVibGljLXZwbi0xNjIub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0xODYub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0xOTIub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
 Unknown (??) - sstp://cHVibGljLXZwbi0yMjMub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
@@ -44,7 +49,6 @@ Unknown (??) - sstp://dnBuMzMyNjk4MTE4Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuMzQ3MTg1MTA1Lm9wZW5ndy5uZXQ6MTkzMUB2cG46dnBu
 Unknown (??) - sstp://dnBuMzQ4MDIwOTAzLm9wZW5ndy5uZXQ6MTQwMEB2cG46dnBu
 Unknown (??) - sstp://dnBuMzU1MTM1ODUzLm9wZW5ndy5uZXQ6MTkyNEB2cG46dnBu
-Unknown (??) - sstp://dnBuMzU1NzAzMDY4Lm9wZW5ndy5uZXQ6MTc1MkB2cG46dnBu
 Unknown (??) - sstp://dnBuMzY1MTkyMDk3Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuMzc3NDc2MTYwLm9wZW5ndy5uZXQ6MTUyNkB2cG46dnBu
 Unknown (??) - sstp://dnBuMzc5ODU4OTEwLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
@@ -52,7 +56,6 @@ Unknown (??) - sstp://dnBuMzg5Mzk5NTgyLm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
 Unknown (??) - sstp://dnBuNDExNTIxMzg1Lm9wZW5ndy5uZXQ6MTUwM0B2cG46dnBu
 Unknown (??) - sstp://dnBuNDIzNTI3Njg1Lm9wZW5ndy5uZXQ6MTg1NkB2cG46dnBu
 Unknown (??) - sstp://dnBuNDU1ODEyNDE1Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Unknown (??) - sstp://dnBuNDUwMzI4NDIyLm9wZW5ndy5uZXQ6MTUyN0B2cG46dnBu
 Unknown (??) - sstp://dnBuNDY5NTE2MDYzLm9wZW5ndy5uZXQ6MTk1OEB2cG46dnBu
 Unknown (??) - sstp://dnBuNDc0MTEyMTA3Lm9wZW5ndy5uZXQ6MTc5MUB2cG46dnBu
 Unknown (??) - sstp://dnBuNDc2OTE4MTI3Lm9wZW5ndy5uZXQ6MTM1MkB2cG46dnBu
@@ -65,7 +68,6 @@ Unknown (??) - sstp://dnBuNTQzOTg2NTk0Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuNTU1MDAxMzA4Lm9wZW5ndy5uZXQ6MTQ1OUB2cG46dnBu
 Unknown (??) - sstp://dnBuNTU5ODQxNzk4Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuNTc5NjM2NDUzLm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
-Unknown (??) - sstp://dnBuNTgzNzY0MDMyLm9wZW5ndy5uZXQ6MTQ2NEB2cG46dnBu
 Unknown (??) - sstp://dnBuNTk0NTI1OTY3Lm9wZW5ndy5uZXQ6MTk1OEB2cG46dnBu
 Unknown (??) - sstp://dnBuNTkxNDg5MTM1Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuNjA0Njc2NzY3Lm9wZW5ndy5uZXQ6MTQ2M0B2cG46dnBu
@@ -90,11 +92,9 @@ Unknown (??) - sstp://dnBuODAyODQzNTE1Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuODE1MTQyMjY4Lm9wZW5ndy5uZXQ6MTU5OUB2cG46dnBu
 Unknown (??) - sstp://dnBuODEyMzU3MjQzLm9wZW5ndy5uZXQ6MTc1MkB2cG46dnBu
 Unknown (??) - sstp://dnBuODEzNDQwMjg3Lm9wZW5ndy5uZXQ6MTYwNEB2cG46dnBu
-Unknown (??) - sstp://dnBuODM4Njc0MjQzLm9wZW5ndy5uZXQ6MTY3MUB2cG46dnBu
 Unknown (??) - sstp://dnBuODQ2MjY3OTU4Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Unknown (??) - sstp://dnBuODUyNjkyODM5Lm9wZW5ndy5uZXQ6MTc4M0B2cG46dnBu
 Unknown (??) - sstp://dnBuOTA2NTUxMDEzLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Unknown (??) - sstp://dnBuOTAwMTYzMzkyLm9wZW5ndy5uZXQ6MTQzNkB2cG46dnBu
 Unknown (??) - sstp://dnBuOTE3MjYwNDk0Lm9wZW5ndy5uZXQ6MTY0M0B2cG46dnBu
 Unknown (??) - sstp://dnBuOTMyOTkzNzY5Lm9wZW5ndy5uZXQ6MTc4NUB2cG46dnBu
 Unknown (??) - sstp://dnBuOTQxNDU2Njk2Lm9wZW5ndy5uZXQ6MTg3NkB2cG46dnBu
