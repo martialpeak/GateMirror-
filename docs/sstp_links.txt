@@ -1,5 +1,4 @@
 Argentina (AR) - sstp://dnBuNTEwNjgxMjU4Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Japan (JP) - sstp://b3Blbmd3Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Japan (JP) - sstp://bjI2Lm9wZW5ndy5uZXQ6MTE5NEB2cG46dnBu
 Japan (JP) - sstp://cHVibGljLXZwbi01MS5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
 Japan (JP) - sstp://cHVibGljLXZwbi02Ny5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
@@ -55,10 +54,12 @@ Japan (JP) - sstp://dnBuODczMTAyNjU1Lm9wZW5ndy5uZXQ6MTIxMUB2cG46dnBu
 Japan (JP) - sstp://dnBuOTQwNDE5OTk4Lm9wZW5ndy5uZXQ6MTc3NUB2cG46dnBu
 Japan (JP) - sstp://dnBuOTY5NDU4MjkzLm9wZW5ndy5uZXQ6MTYyMUB2cG46dnBu
 Japan (JP) - sstp://dnBuOTkwODk4ODkzLm9wZW5ndy5uZXQ6MTc5NUB2cG46dnBu
+Korea Republic of (KR) - sstp://dnBuMjU1MjAxNTkzLm9wZW5ndy5uZXQ6MTMzOEB2cG46dnBu
 Korea Republic of (KR) - sstp://dnBuNDkzMjcxMjY2Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
 Korea Republic of (KR) - sstp://dnBuNzUwNzYxNTk1Lm9wZW5ndy5uZXQ6MTU1MUB2cG46dnBu
 Mexico (MX) - sstp://dnBuMTU2Nzc3NjczLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Peru (PE) - sstp://dnBuMjExODM1Mjg3Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
+Romania (RO) - sstp://b3Blbmd3Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Russia (RU) - sstp://dnBuNDUwNjU3NDkzLm9wZW5ndy5uZXQ6MTI3OUB2cG46dnBu
 Russia (RU) - sstp://dnBuNzI0MzgxODk5Lm9wZW5ndy5uZXQ6MTUyOUB2cG46dnBu
 South Korea (KR) - sstp://dnBuMTA2MTk4MDk5Lm9wZW5ndy5uZXQ6MTgzNkB2cG46dnBu
@@ -71,7 +72,6 @@ South Korea (KR) - sstp://dnBuMjEwMDYwOTcyLm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
 South Korea (KR) - sstp://dnBuMjEyNzc5MTIwLm9wZW5ndy5uZXQ6MTg3OUB2cG46dnBu
 South Korea (KR) - sstp://dnBuMjI4MjI0OTgzLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 South Korea (KR) - sstp://dnBuMjMxNzc0MTUyLm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
-South Korea (KR) - sstp://dnBuMjU1MjAxNTkzLm9wZW5ndy5uZXQ6MTMzOEB2cG46dnBu
 South Korea (KR) - sstp://dnBuMzU5MTg2MzYyLm9wZW5ndy5uZXQ6MTcyMUB2cG46dnBu
 South Korea (KR) - sstp://dnBuMzcyNzI1OTYyLm9wZW5ndy5uZXQ6MTc4OEB2cG46dnBu
 South Korea (KR) - sstp://dnBuNDM3NzE2Njk3Lm9wZW5ndy5uZXQ6MTQxOEB2cG46dnBu
