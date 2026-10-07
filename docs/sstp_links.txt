@@ -56,11 +56,11 @@ Korea Republic of (KR) - sstp://dnBuNDQzMTIwNDU5Lm9wZW5ndy5uZXQ6MTcxNEB2cG46dnBu
 Korea Republic of (KR) - sstp://dnBuNjQwOTU2NjY3Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
 Mexico (MX) - sstp://dnBuMTYwOTUzNDA3Lm9wZW5ndy5uZXQ6MTY2NkB2cG46dnBu
 Romania (RO) - sstp://b3Blbmd3Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Russia (RU) - sstp://dnBuMTY0MTc3NjE4Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Russia (RU) - sstp://dnBuMjIwMDIzNzkxLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Russia (RU) - sstp://dnBuMjQ3NDU5MDk4Lm9wZW5ndy5uZXQ6MTYxMEB2cG46dnBu
 Russia (RU) - sstp://dnBuMzk5MjUyMDQ0Lm9wZW5ndy5uZXQ6MTM4MUB2cG46dnBu
 Russia (RU) - sstp://dnBuODQ5NzU4MTc5Lm9wZW5ndy5uZXQ6MTkxMEB2cG46dnBu
+Russian Federation (RU) - sstp://dnBuMTY0MTc3NjE4Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 South Korea (KR) - sstp://dnBuMTM3MTgzNDcyLm9wZW5ndy5uZXQ6MTczMEB2cG46dnBu
 South Korea (KR) - sstp://dnBuMTU2MTk2NDczLm9wZW5ndy5uZXQ6MTkwM0B2cG46dnBu
 South Korea (KR) - sstp://dnBuMTU4MDE0MjQwLm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
@@ -90,10 +90,10 @@ South Korea (KR) - sstp://dnBuOTUyNzc2NDE2Lm9wZW5ndy5uZXQ6MTI2NEB2cG46dnBu
 South Korea (KR) - sstp://dnBuOTY0NjM5MTQ5Lm9wZW5ndy5uZXQ6MTU4OEB2cG46dnBu
 Thailand (TH) - sstp://dnBuNDE0MzYzMzk1Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Thailand (TH) - sstp://dnBuODAwMDQ4MDY2Lm9wZW5ndy5uZXQ6MTczOEB2cG46dnBu
-The Netherlands (NL) - sstp://dnBuNjczNjY0MzU1Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Ukraine (UA) - sstp://dnBuNDQwNzk3NjI3Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 United States (US) - sstp://dnBuMTk5OTk2NTYxLm9wZW5ndy5uZXQ6MTQxN0B2cG46dnBu
 United States (US) - sstp://dnBuMzQ4MjY2MzQyLm9wZW5ndy5uZXQ6MTY5NEB2cG46dnBu
 United States (US) - sstp://dnBuMzg3NTQ2NTQxLm9wZW5ndy5uZXQ6MTkyN0B2cG46dnBu
+United States (US) - sstp://dnBuNjczNjY0MzU1Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 United States (US) - sstp://dnBuOTE4ODQwNjgzLm9wZW5ndy5uZXQ6MTI0NUB2cG46dnBu
 United States (US) - sstp://dnBuOTMyOTkzNzY5Lm9wZW5ndy5uZXQ6MTc4NUB2cG46dnBu
