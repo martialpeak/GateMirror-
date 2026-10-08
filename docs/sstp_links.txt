@@ -68,6 +68,7 @@ Korea Republic of (KR) - sstp://dnBuNjA5MjExNzE1Lm9wZW5ndy5uZXQ6MTY3OUB2cG46dnBu
 Korea Republic of (KR) - sstp://dnBuODE5MzU4Mzc2Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Korea Republic of (KR) - sstp://dnBuODE5OTUyNjg1Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
 Korea Republic of (KR) - sstp://dnBuODEzNDQwMjg3Lm9wZW5ndy5uZXQ6MTYwNEB2cG46dnBu
+Korea Republic of (KR) - sstp://dnBuOTIyNTc3NTM3Lm9wZW5ndy5uZXQ6MTg5NkB2cG46dnBu
 Korea Republic of (KR) - sstp://dnBuOTY2NTMzNzEyLm9wZW5ndy5uZXQ6MTk0MUB2cG46dnBu
 Korea Republic of (KR) - sstp://dnBuOTc0MDQ3NTM3Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
 Mexico (MX) - sstp://dnBuMTU4Mjk3MjY2Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
@@ -95,7 +96,6 @@ South Korea (KR) - sstp://dnBuNzIwNTQ1MTY3Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 South Korea (KR) - sstp://dnBuODEyMzU3MjQzLm9wZW5ndy5uZXQ6MTc1MkB2cG46dnBu
 South Korea (KR) - sstp://dnBuODY1MTcxOTAxLm9wZW5ndy5uZXQ6MTc4N0B2cG46dnBu
 South Korea (KR) - sstp://dnBuOTI4NzMxNjA0Lm9wZW5ndy5uZXQ6MTY4MUB2cG46dnBu
-South Korea (KR) - sstp://dnBuOTIyNTc3NTM3Lm9wZW5ndy5uZXQ6MTg5NkB2cG46dnBu
 South Korea (KR) - sstp://dnBuOTkxNjgyOTYzLm9wZW5ndy5uZXQ6MTU1NkB2cG46dnBu
 Thailand (TH) - sstp://dnBuMjg5NTcwMzQ0Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 United States (US) - sstp://dnBuMjI1MzIwODc0Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
