@@ -1,107 +1,101 @@
-Argentina (AR) - sstp://dnBuMTAzMTIzNzQxLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Brazil (BR) - sstp://dnBuNzUzMDIwODU1Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Croatia (HR) - sstp://dnBuNDI5OTIyNzA5Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
+Canada (CA) - sstp://dnBuNDMxNjM0NDE2Lm9wZW5ndy5uZXQ6MTUzNkB2cG46dnBu
 Croatia (HR) - sstp://dnBuNDMwODYxMTI1Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Croatia (HR) - sstp://dnBuNDk5NTg1ODgxLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Croatia (LOCAL Name: Hrvatska) (HR) - sstp://dnBuNzk0MTk4ODg3Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-France (FR) - sstp://c25tYXJyb24ub3Blbmd3Lm5ldDo5OTJAdnBuOnZwbg==
-Hungary (HU) - sstp://dnBuMjczMTYwMDA0Lm9wZW5ndy5uZXQ6MTcwN0B2cG46dnBu
-India (IN) - sstp://dnBuMzU5NjEwMDkxLm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
-Indonesia (ID) - sstp://dnBuNzI5NzY0MDI4Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
+Croatia (HR) - sstp://dnBuNzA2MzQzODIzLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
+Croatia (LOCAL Name: Hrvatska) (HR) - sstp://dnBuOTgxMjA0ODI5Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
+Japan (JP) - sstp://a2FucmF0b3duLm9wZW5ndy5uZXQ6OTkyQHZwbjp2cG4=
 Japan (JP) - sstp://bGF1ZC5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
-Japan (JP) - sstp://cHVibGljLXZwbi0xMDQub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
-Japan (JP) - sstp://cHVibGljLXZwbi0xMDgub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
-Japan (JP) - sstp://cHVibGljLXZwbi0xMTQub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
-Japan (JP) - sstp://cHVibGljLXZwbi0xMjYub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
-Japan (JP) - sstp://cHVibGljLXZwbi0xNDYub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
-Japan (JP) - sstp://cHVibGljLXZwbi0xNTIub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
-Japan (JP) - sstp://cHVibGljLXZwbi0xNTUub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
-Japan (JP) - sstp://cHVibGljLXZwbi0xOTgub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
-Japan (JP) - sstp://cHVibGljLXZwbi0yMDEub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
-Japan (JP) - sstp://cHVibGljLXZwbi0yMjcub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
-Japan (JP) - sstp://cHVibGljLXZwbi0yMzIub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
-Japan (JP) - sstp://cHVibGljLXZwbi0yNTEub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
-Japan (JP) - sstp://cHVibGljLXZwbi0yNTIub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
-Japan (JP) - sstp://cHVibGljLXZwbi0zOC5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
-Japan (JP) - sstp://dnBuMTA1NzI1MzA0Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Japan (JP) - sstp://dnBuMTE0MjQwODUzLm9wZW5ndy5uZXQ6MTYzOEB2cG46dnBu
-Japan (JP) - sstp://dnBuMTE5NDU2MDE4Lm9wZW5ndy5uZXQ6MTkyNkB2cG46dnBu
-Japan (JP) - sstp://dnBuMTM3Mzc0NjE5Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Japan (JP) - sstp://dnBuMTY0MTgzOTM2Lm9wZW5ndy5uZXQ6MTMyMUB2cG46dnBu
-Japan (JP) - sstp://dnBuMTg0MTY5NTgxLm9wZW5ndy5uZXQ6MTcxM0B2cG46dnBu
-Japan (JP) - sstp://dnBuMTgzNzc1MjU5Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Japan (JP) - sstp://dnBuMjA1MTQ0ODg1Lm9wZW5ndy5uZXQ6MTk4M0B2cG46dnBu
-Japan (JP) - sstp://dnBuMjI0MDU3MjA5Lm9wZW5ndy5uZXQ6MTQ2M0B2cG46dnBu
-Japan (JP) - sstp://dnBuMjIwODI4MjQ1Lm9wZW5ndy5uZXQ6MTM5OEB2cG46dnBu
-Japan (JP) - sstp://dnBuMjM1MTYyMzM1Lm9wZW5ndy5uZXQ6MTQzNEB2cG46dnBu
-Japan (JP) - sstp://dnBuMjM5Mzk5NzU5Lm9wZW5ndy5uZXQ6MTcyM0B2cG46dnBu
-Japan (JP) - sstp://dnBuMzA2MTc1MTc4Lm9wZW5ndy5uZXQ6MTY3M0B2cG46dnBu
-Japan (JP) - sstp://dnBuMzUzNTkzOTA4Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Japan (JP) - sstp://dnBuMzc1MjQ1MjE2Lm9wZW5ndy5uZXQ6MTY4OEB2cG46dnBu
-Japan (JP) - sstp://dnBuMzk4NzE3MTQ2Lm9wZW5ndy5uZXQ6MTI4OUB2cG46dnBu
-Japan (JP) - sstp://dnBuMzkxMjc5MzE0Lm9wZW5ndy5uZXQ6MTkyNUB2cG46dnBu
-Japan (JP) - sstp://dnBuNDA3MTQ1ODU5Lm9wZW5ndy5uZXQ6MTc0M0B2cG46dnBu
-Japan (JP) - sstp://dnBuNDM1MTg4MTUzLm9wZW5ndy5uZXQ6MTY5OUB2cG46dnBu
-Japan (JP) - sstp://dnBuNTA5NzA4Njk2Lm9wZW5ndy5uZXQ6MTg4NEB2cG46dnBu
-Japan (JP) - sstp://dnBuNTEwNjkxNTQyLm9wZW5ndy5uZXQ6MTk4M0B2cG46dnBu
-Japan (JP) - sstp://dnBuNTI2MDYyNDQ1Lm9wZW5ndy5uZXQ6MTk5OUB2cG46dnBu
-Japan (JP) - sstp://dnBuNTQ5MjA0NzQyLm9wZW5ndy5uZXQ6MTUzOEB2cG46dnBu
-Japan (JP) - sstp://dnBuNTYyNDA2NTMwLm9wZW5ndy5uZXQ6MTg3OUB2cG46dnBu
-Japan (JP) - sstp://dnBuNTkwNzAyODg2Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Japan (JP) - sstp://dnBuNjEzNTQ4ODIwLm9wZW5ndy5uZXQ6MTQ2N0B2cG46dnBu
-Japan (JP) - sstp://dnBuNjU3MDExNDgwLm9wZW5ndy5uZXQ6MTg2OUB2cG46dnBu
-Japan (JP) - sstp://dnBuNjc4NTA0ODQzLm9wZW5ndy5uZXQ6MTkyNkB2cG46dnBu
-Japan (JP) - sstp://dnBuNzI0MjE3MTM3Lm9wZW5ndy5uZXQ6MTgxNUB2cG46dnBu
-Japan (JP) - sstp://dnBuNzI0ODMzMzY0Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Japan (JP) - sstp://dnBuNzI5ODI0NjQ0Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Japan (JP) - sstp://dnBuNzQ1MDI3MDAyLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Japan (JP) - sstp://dnBuODQ0MTk3ODM1Lm9wZW5ndy5uZXQ6MTQxMUB2cG46dnBu
-Japan (JP) - sstp://dnBuODQ3OTAyMDMyLm9wZW5ndy5uZXQ6MTkxNEB2cG46dnBu
-Japan (JP) - sstp://dnBuODY4ODU4MDM4Lm9wZW5ndy5uZXQ6MTkyMUB2cG46dnBu
-Japan (JP) - sstp://dnBuODYyNjQ2MDg4Lm9wZW5ndy5uZXQ6MTQ5OEB2cG46dnBu
-Japan (JP) - sstp://dnBuODk3OTEwNjA1Lm9wZW5ndy5uZXQ6MTI5MEB2cG46dnBu
-Japan (JP) - sstp://dnBuOTE5MzM4MjAxLm9wZW5ndy5uZXQ6MTgyM0B2cG46dnBu
-Japan (JP) - sstp://dnBuOTExMjUxNDMxLm9wZW5ndy5uZXQ6MTY2MUB2cG46dnBu
-Japan (JP) - sstp://dnBuOTI2NjY0MzIzLm9wZW5ndy5uZXQ6MTg2MkB2cG46dnBu
-Korea Republic of (KR) - sstp://dnBuMTExNjk4NDEyLm9wZW5ndy5uZXQ6MTc0M0B2cG46dnBu
-Korea Republic of (KR) - sstp://dnBuNjA5MjExNzE1Lm9wZW5ndy5uZXQ6MTY3OUB2cG46dnBu
-Korea Republic of (KR) - sstp://dnBuODE5MzU4Mzc2Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Korea Republic of (KR) - sstp://dnBuODE5OTUyNjg1Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
-Korea Republic of (KR) - sstp://dnBuODEzNDQwMjg3Lm9wZW5ndy5uZXQ6MTYwNEB2cG46dnBu
+Japan (JP) - sstp://bjI2Lm9wZW5ndy5uZXQ6MTE5NEB2cG46dnBu
+Japan (JP) - sstp://cHVibGljLXZwbi00MS5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
+Japan (JP) - sstp://cHVibGljLXZwbi02MS5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
+Japan (JP) - sstp://cHVibGljLXZwbi02NC5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
+Japan (JP) - sstp://cHVibGljLXZwbi05NS5vcGVuZ3cubmV0OjQ0M0B2cG46dnBu
+Japan (JP) - sstp://cHVibGljLXZwbi0xMTEub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
+Japan (JP) - sstp://cHVibGljLXZwbi0xMjIub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
+Japan (JP) - sstp://cHVibGljLXZwbi0xNjMub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
+Japan (JP) - sstp://cHVibGljLXZwbi0yMTYub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
+Japan (JP) - sstp://cHVibGljLXZwbi0yMTgub3Blbmd3Lm5ldDo0NDNAdnBuOnZwbg==
+Japan (JP) - sstp://dnBuMTIyOTE2NDM3Lm9wZW5ndy5uZXQ6MTU1OEB2cG46dnBu
+Japan (JP) - sstp://dnBuMTY0NDgxODA1Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
+Japan (JP) - sstp://dnBuMjc1NTE5MjgwLm9wZW5ndy5uZXQ6MTg5N0B2cG46dnBu
+Japan (JP) - sstp://dnBuMjg0NzM2MDM5Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
+Japan (JP) - sstp://dnBuMzAzMjM3NzI4Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
+Japan (JP) - sstp://dnBuMzg2MzU1NTU5Lm9wZW5ndy5uZXQ6MTMzM0B2cG46dnBu
+Japan (JP) - sstp://dnBuNTMyMTQyMzQ5Lm9wZW5ndy5uZXQ6MTM5NEB2cG46dnBu
+Japan (JP) - sstp://dnBuNTcxOTMxNjEwLm9wZW5ndy5uZXQ6MTkwOUB2cG46dnBu
+Japan (JP) - sstp://dnBuNjgzMDQxNzg2Lm9wZW5ndy5uZXQ6MTM4MkB2cG46dnBu
+Japan (JP) - sstp://dnBuNjk2MjU1MTE5Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
+Japan (JP) - sstp://dnBuNzA4NzkxMjUyLm9wZW5ndy5uZXQ6MTg4MkB2cG46dnBu
+Japan (JP) - sstp://dnBuNzU3NDgxNTIyLm9wZW5ndy5uZXQ6MTM0NkB2cG46dnBu
+Japan (JP) - sstp://dnBuNzUxNTA2Mzk1Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
+Japan (JP) - sstp://dnBuODEzNTE2NTg3Lm9wZW5ndy5uZXQ6MTUzNEB2cG46dnBu
+Japan (JP) - sstp://dnBuODU1NTQyNjE5Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
+Japan (JP) - sstp://dnBuODU3NDc2MzgwLm9wZW5ndy5uZXQ6MTY5MUB2cG46dnBu
+Japan (JP) - sstp://dnBuODkwMzIxOTQ3Lm9wZW5ndy5uZXQ6MTYzMEB2cG46dnBu
+Japan (JP) - sstp://dnBuOTIxOTE4MjMwLm9wZW5ndy5uZXQ6MTg5OUB2cG46dnBu
+Japan (JP) - sstp://dnBuOTQwNDE5OTk4Lm9wZW5ndy5uZXQ6MTc3NUB2cG46dnBu
+Japan (JP) - sstp://dnBuOTY0NjMwODAzLm9wZW5ndy5uZXQ6MTU2OEB2cG46dnBu
+Japan (JP) - sstp://dnBuOTY5MTU2NzExLm9wZW5ndy5uZXQ6MTc2N0B2cG46dnBu
+Japan (JP) - sstp://dnBuOTc4NjY2Njg5Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
+Japan (JP) - sstp://dnBuOTgxMTEzMTA4Lm9wZW5ndy5uZXQ6MTg1MUB2cG46dnBu
+Korea Republic of (KR) - sstp://dnBuNDE2NDUyMDY2Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
+Korea Republic of (KR) - sstp://dnBuNTc0OTc1MzExLm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
+Korea Republic of (KR) - sstp://dnBuNzkwMjU2OTA0Lm9wZW5ndy5uZXQ6MTI0OUB2cG46dnBu
+Korea Republic of (KR) - sstp://dnBuOTA5NTYxNTIzLm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
 Korea Republic of (KR) - sstp://dnBuOTIyNTc3NTM3Lm9wZW5ndy5uZXQ6MTg5NkB2cG46dnBu
-Korea Republic of (KR) - sstp://dnBuOTY2NTMzNzEyLm9wZW5ndy5uZXQ6MTk0MUB2cG46dnBu
-Korea Republic of (KR) - sstp://dnBuOTc0MDQ3NTM3Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
-Mexico (MX) - sstp://dnBuMTU4Mjk3MjY2Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
+Korea Republic of (KR) - sstp://dnBuOTYwNjA2NzAzLm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
+Mexico (MX) - sstp://Y2V0c3NzYS5vcGVuZ3cubmV0Ojk5MkB2cG46dnBu
+New Zealand (NZ) - sstp://dnBuNjMwNTg5MTIxLm9wZW5ndy5uZXQ6MTk1MkB2cG46dnBu
+New Zealand (NZ) - sstp://dnBuOTA5MzkzMTgxLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Poland (PL) - sstp://bmVrbzY5Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Russia (RU) - sstp://dnBuMTgxMDUwNDUwLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Russia (RU) - sstp://dnBuMzI1NDY4OTc0Lm9wZW5ndy5uZXQ6MTU2MUB2cG46dnBu
-Russia (RU) - sstp://dnBuNzk1MDY0MjMzLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Russia (RU) - sstp://dnBuODg4Mjg0MzQwLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Russia (RU) - sstp://dnBuODkxNDIxNzQxLm9wZW5ndy5uZXQ6MTgyOUB2cG46dnBu
-Russian Federation (RU) - sstp://dnBuNzMzNzgyNTU1Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-South Korea (KR) - sstp://dnBuMTQxMzUzODkxLm9wZW5ndy5uZXQ6MTYzMkB2cG46dnBu
-South Korea (KR) - sstp://dnBuMTY4MDg5Njc5Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
-South Korea (KR) - sstp://dnBuMTk2MTMxOTE1Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
-South Korea (KR) - sstp://dnBuMjE5OTQxNzY5Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
-South Korea (KR) - sstp://dnBuMzAxMTg2MzkyLm9wZW5ndy5uZXQ6MTYyMUB2cG46dnBu
-South Korea (KR) - sstp://dnBuNDAwOTYzMzkxLm9wZW5ndy5uZXQ6MTM0MkB2cG46dnBu
-South Korea (KR) - sstp://dnBuNDM3NzkxMzE2Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
-South Korea (KR) - sstp://dnBuNDg2MDY4NzU5Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
-South Korea (KR) - sstp://dnBuNTY3MzU0MDM2Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
-South Korea (KR) - sstp://dnBuNjUzODI4Nzk2Lm9wZW5ndy5uZXQ6MTM4MUB2cG46dnBu
-South Korea (KR) - sstp://dnBuNjc2MzAxNTE1Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-South Korea (KR) - sstp://dnBuNjg1NTk2NDIxLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-South Korea (KR) - sstp://dnBuNzE0NjQ4ODk4Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
-South Korea (KR) - sstp://dnBuNzIwNTQ1MTY3Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-South Korea (KR) - sstp://dnBuODEyMzU3MjQzLm9wZW5ndy5uZXQ6MTc1MkB2cG46dnBu
-South Korea (KR) - sstp://dnBuODY1MTcxOTAxLm9wZW5ndy5uZXQ6MTc4N0B2cG46dnBu
-South Korea (KR) - sstp://dnBuOTI4NzMxNjA0Lm9wZW5ndy5uZXQ6MTY4MUB2cG46dnBu
-South Korea (KR) - sstp://dnBuOTkxNjgyOTYzLm9wZW5ndy5uZXQ6MTU1NkB2cG46dnBu
-Thailand (TH) - sstp://dnBuMjg5NTcwMzQ0Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-United States (US) - sstp://dnBuMjI1MzIwODc0Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
+Romania (RO) - sstp://b3Blbmd3Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
+Russia (RU) - sstp://dnBuMzk5MjUyMDQ0Lm9wZW5ndy5uZXQ6MTM4MUB2cG46dnBu
+Russia (RU) - sstp://dnBuNDE1ODk0Nzg2Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
+Russia (RU) - sstp://dnBuNDI0NDczMDkyLm9wZW5ndy5uZXQ6MTM1NkB2cG46dnBu
+Russia (RU) - sstp://dnBuNDg0Mzc0NTA5Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
+Russia (RU) - sstp://dnBuNjk0NzY1MzI1Lm9wZW5ndy5uZXQ6MTY1MkB2cG46dnBu
+Russia (RU) - sstp://dnBuNzA3NzMwMTIyLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
+Russia (RU) - sstp://dnBuNzUzMjUwMjY4Lm9wZW5ndy5uZXQ6MTU2MkB2cG46dnBu
+Russian Federation (RU) - sstp://dnBuMzk4ODQ4OTUzLm9wZW5ndy5uZXQ6MTQ4MkB2cG46dnBu
+Russian Federation (RU) - sstp://dnBuOTAyODI2NzI3Lm9wZW5ndy5uZXQ6MTMyMUB2cG46dnBu
+South Korea (KR) - sstp://dnBuMTIyNzA5NDAyLm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
+South Korea (KR) - sstp://dnBuMTUzODIwNDg2Lm9wZW5ndy5uZXQ6MTQwMEB2cG46dnBu
+South Korea (KR) - sstp://dnBuMTYyOTU0NDQwLm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
+South Korea (KR) - sstp://dnBuMjA5MzM2MjQ5Lm9wZW5ndy5uZXQ6MTg2NEB2cG46dnBu
+South Korea (KR) - sstp://dnBuMjI2NTA0Njk2Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
+South Korea (KR) - sstp://dnBuMjU3NjYyMDU3Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
+South Korea (KR) - sstp://dnBuMzQ1NTIzNjk3Lm9wZW5ndy5uZXQ6MTM4NEB2cG46dnBu
+South Korea (KR) - sstp://dnBuMzc0NjQ3MTMxLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
+South Korea (KR) - sstp://dnBuMzc3NDc2MTYwLm9wZW5ndy5uZXQ6MTUyNkB2cG46dnBu
+South Korea (KR) - sstp://dnBuMzg3Njk1NzM1Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
+South Korea (KR) - sstp://dnBuMzgyMTgzODU2Lm9wZW5ndy5uZXQ6MTg5NUB2cG46dnBu
+South Korea (KR) - sstp://dnBuNDAzOTExNDg0Lm9wZW5ndy5uZXQ6MTkzN0B2cG46dnBu
+South Korea (KR) - sstp://dnBuNDYxMjQ4MzYzLm9wZW5ndy5uZXQ6MTY2M0B2cG46dnBu
+South Korea (KR) - sstp://dnBuNDkzNDYzODE5Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
+South Korea (KR) - sstp://dnBuNTM2MjMxMTY3Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
+South Korea (KR) - sstp://dnBuNTQzMDM2NzgyLm9wZW5ndy5uZXQ6MTM4OEB2cG46dnBu
+South Korea (KR) - sstp://dnBuNTY5Mzk2MzA4Lm9wZW5ndy5uZXQ6MTYzMkB2cG46dnBu
+South Korea (KR) - sstp://dnBuNjEwODEyMDA1Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
+South Korea (KR) - sstp://dnBuNjYwMzAwOTY4Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
+South Korea (KR) - sstp://dnBuNjc3MzY0MTU5Lm9wZW5ndy5uZXQ6MTg0NUB2cG46dnBu
+South Korea (KR) - sstp://dnBuNjgzMDE1MDc4Lm9wZW5ndy5uZXQ6MTQ3NEB2cG46dnBu
+South Korea (KR) - sstp://dnBuNjgzMzk2MjM0Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
+South Korea (KR) - sstp://dnBuNzA5NTA1OTMzLm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
+South Korea (KR) - sstp://dnBuNzQxOTMyODE5Lm9wZW5ndy5uZXQ6MTIzOUB2cG46dnBu
+South Korea (KR) - sstp://dnBuNzg0MDI2NzU5Lm9wZW5ndy5uZXQ6MTkzNkB2cG46dnBu
+South Korea (KR) - sstp://dnBuODU4ODIwMDA3Lm9wZW5ndy5uZXQ6MTYwM0B2cG46dnBu
+South Korea (KR) - sstp://dnBuOTA2MzAxNzcyLm9wZW5ndy5uZXQ6MTUwN0B2cG46dnBu
+South Korea (KR) - sstp://dnBuOTQ4NjEwNzIwLm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
+South Korea (KR) - sstp://dnBuOTU4MTM1MDQ4Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
+South Korea (KR) - sstp://dnBuOTUwNzMzNjU4Lm9wZW5ndy5uZXQ6MTI2OUB2cG46dnBu
+South Korea (KR) - sstp://dnBuOTY1MjA1NDgzLm9wZW5ndy5uZXQ6MTgwMEB2cG46dnBu
+South Korea (KR) - sstp://dnBuOTc5MTc0Mzk1Lm9wZW5ndy5uZXQ6MTI2MUB2cG46dnBu
+South Korea (KR) - sstp://dnBuOTgwMDAwNTIyLm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
+South Korea (KR) - sstp://dnBuOTkxMDAxNjIxLm9wZW5ndy5uZXQ6MTc2NEB2cG46dnBu
+South Korea (KR) - sstp://dnBuOTkxOTI0ODMwLm9wZW5ndy5uZXQ6MTU5MkB2cG46dnBu
+Thailand (TH) - sstp://dnBuMTkzMzA1MjE0Lm9wZW5ndy5uZXQ6MTU5OUB2cG46dnBu
+Thailand (TH) - sstp://dnBuNTM2OTI4ODAyLm9wZW5ndy5uZXQ6MTYzMUB2cG46dnBu
+Thailand (TH) - sstp://dnBuNTk2NDU5NDc0Lm9wZW5ndy5uZXQ6MTk4MUB2cG46dnBu
+Ukraine (UA) - sstp://dnBuNDQwNzk3NjI3Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 United States (US) - sstp://dnBuMjY2NjQ4MjE2Lm9wZW5ndy5uZXQ6MTMyNUB2cG46dnBu
-United States (US) - sstp://dnBuNTYyOTkzNDk0Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-United States (US) - sstp://dnBuNTg3MjQyOTQ3Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
+United States (US) - sstp://dnBuMjc3NDUyMjYwLm9wZW5ndy5uZXQ6MTI1N0B2cG46dnBu
 United States (US) - sstp://dnBuNzI5MDM4OTIwLm9wZW5ndy5uZXQ6MTUzOEB2cG46dnBu
-United States (US) - sstp://dnBuODUyMzI1NDQxLm9wZW5ndy5uZXQ6MTUwNUB2cG46dnBu
-United States (US) - sstp://dnBuODg1NDIyNDg3Lm9wZW5ndy5uZXQ6MTk5NkB2cG46dnBu
