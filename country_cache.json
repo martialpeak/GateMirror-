@@ -4372,7 +4372,7 @@
     "JP"
   ],
   "vpn532221228": [
-    "South Korea",
+    "Korea Republic of",
     "KR"
   ],
   "vpn532221228.opengw.net": [
@@ -4380,7 +4380,7 @@
     "KR"
   ],
   "110.15.34.238": [
-    "South Korea",
+    "Korea Republic of",
     "KR"
   ],
   "vpn556958138": [
@@ -7036,7 +7036,7 @@
     "KR"
   ],
   "vpn429922709": [
-    "Croatia",
+    "Croatia (LOCAL Name: Hrvatska)",
     "HR"
   ],
   "vpn429922709.opengw.net": [
@@ -7044,7 +7044,7 @@
     "HR"
   ],
   "150.40.105.7": [
-    "Croatia",
+    "Croatia (LOCAL Name: Hrvatska)",
     "HR"
   ],
   "vpn430861125": [
@@ -10946,5 +10946,457 @@
   "2.61.20.248": [
     "Russian Federation",
     "RU"
+  ],
+  "public-vpn-222": [
+    "Japan",
+    "JP"
+  ],
+  "219.100.37.183": [
+    "Japan",
+    "JP"
+  ],
+  "public-vpn-137": [
+    "Japan",
+    "JP"
+  ],
+  "219.100.37.116": [
+    "Japan",
+    "JP"
+  ],
+  "public-vpn-65": [
+    "Japan",
+    "JP"
+  ],
+  "219.100.37.82": [
+    "Japan",
+    "JP"
+  ],
+  "vpn682843319": [
+    "United States",
+    "US"
+  ],
+  "104.28.214.147": [
+    "United States",
+    "US"
+  ],
+  "vpn119076176": [
+    "United States",
+    "US"
+  ],
+  "98.194.192.27": [
+    "United States",
+    "US"
+  ],
+  "vpn110060260": [
+    "Japan",
+    "JP"
+  ],
+  "59.135.173.211": [
+    "Japan",
+    "JP"
+  ],
+  "public-vpn-50": [
+    "Japan",
+    "JP"
+  ],
+  "219.100.37.14": [
+    "Japan",
+    "JP"
+  ],
+  "vpn673622597": [
+    "Japan",
+    "JP"
+  ],
+  "60.121.223.189": [
+    "Japan",
+    "JP"
+  ],
+  "vpn823585109": [
+    "Japan",
+    "JP"
+  ],
+  "122.211.190.167": [
+    "Japan",
+    "JP"
+  ],
+  "vpn981288372": [
+    "Japan",
+    "JP"
+  ],
+  "42.148.153.40": [
+    "Japan",
+    "JP"
+  ],
+  "vpn713625800": [
+    "Japan",
+    "JP"
+  ],
+  "126.37.15.22": [
+    "Japan",
+    "JP"
+  ],
+  "vpn653877201": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "121.161.16.29": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "vpn575908802": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "59.12.131.120": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "vpn195809939": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "221.165.229.38": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "public-vpn-211": [
+    "Japan",
+    "JP"
+  ],
+  "219.100.37.168": [
+    "Japan",
+    "JP"
+  ],
+  "vpn730203756": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "211.222.234.136": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "vpn759611927": [
+    "Japan",
+    "JP"
+  ],
+  "61.114.197.133": [
+    "Japan",
+    "JP"
+  ],
+  "vpn683811137": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "182.215.174.9": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "vpn512385284": [
+    "Japan",
+    "JP"
+  ],
+  "114.180.195.45": [
+    "Japan",
+    "JP"
+  ],
+  "vpn669851144": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "123.199.101.140": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "vpn989367060": [
+    "Japan",
+    "JP"
+  ],
+  "106.177.117.146": [
+    "Japan",
+    "JP"
+  ],
+  "vpn786453615": [
+    "Thailand",
+    "TH"
+  ],
+  "223.207.251.228": [
+    "Thailand",
+    "TH"
+  ],
+  "vpn669967655": [
+    "Japan",
+    "JP"
+  ],
+  "219.28.202.187": [
+    "Japan",
+    "JP"
+  ],
+  "vpn579932260": [
+    "Japan",
+    "JP"
+  ],
+  "114.164.96.126": [
+    "Japan",
+    "JP"
+  ],
+  "vpn587729045": [
+    "Japan",
+    "JP"
+  ],
+  "126.129.146.88": [
+    "Japan",
+    "JP"
+  ],
+  "vpn678825269": [
+    "Japan",
+    "JP"
+  ],
+  "60.104.74.166": [
+    "Japan",
+    "JP"
+  ],
+  "vpn686159184": [
+    "Japan",
+    "JP"
+  ],
+  "126.67.171.203": [
+    "Japan",
+    "JP"
+  ],
+  "vpn492596152": [
+    "Japan",
+    "JP"
+  ],
+  "126.27.73.125": [
+    "Japan",
+    "JP"
+  ],
+  "vpn809985890": [
+    "Thailand",
+    "TH"
+  ],
+  "101.109.233.94": [
+    "Thailand",
+    "TH"
+  ],
+  "vpn647733840": [
+    "Japan",
+    "JP"
+  ],
+  "123.217.135.197": [
+    "Japan",
+    "JP"
+  ],
+  "42.116.248.108": [
+    "Viet Nam",
+    "VN"
+  ],
+  "vpn397527106": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "182.31.246.146": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "vpn165600618": [
+    "Japan",
+    "JP"
+  ],
+  "61.21.196.8": [
+    "Japan",
+    "JP"
+  ],
+  "vpn400000498": [
+    "Japan",
+    "JP"
+  ],
+  "vpn910767930": [
+    "Japan",
+    "JP"
+  ],
+  "59.170.140.197": [
+    "Japan",
+    "JP"
+  ],
+  "vpn310993318": [
+    "Japan",
+    "JP"
+  ],
+  "61.115.93.128": [
+    "Japan",
+    "JP"
+  ],
+  "vpn813691071": [
+    "Japan",
+    "JP"
+  ],
+  "125.30.13.89": [
+    "Japan",
+    "JP"
+  ],
+  "vpn862424028": [
+    "Viet Nam",
+    "VN"
+  ],
+  "42.117.214.208": [
+    "Viet Nam",
+    "VN"
+  ],
+  "vpn991364498": [
+    "Japan",
+    "JP"
+  ],
+  "130.62.148.209": [
+    "Japan",
+    "JP"
+  ],
+  "vpn851134871": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "59.152.179.72": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "vpn423121190": [
+    "Russian Federation",
+    "RU"
+  ],
+  "87.117.189.115": [
+    "Russian Federation",
+    "RU"
+  ],
+  "vpn149881434": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "218.158.237.205": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "vpn221416064": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "222.118.100.152": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "vpn284003592": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "61.80.73.168": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "vpn811409920": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "124.49.6.88": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "vpn347628689": [
+    "Russian Federation",
+    "RU"
+  ],
+  "185.253.101.159": [
+    "Russian Federation",
+    "RU"
+  ],
+  "vpn394082553": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "58.143.231.122": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "181.116.201.255": [
+    "Argentina",
+    "AR"
+  ],
+  "vpn519275158": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "49.175.216.74": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "vpn979052232": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "211.213.23.156": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "vpn303700457": [
+    "Russian Federation",
+    "RU"
+  ],
+  "188.226.65.8": [
+    "Russian Federation",
+    "RU"
+  ],
+  "vpn704958282": [
+    "Russian Federation",
+    "RU"
+  ],
+  "89.190.247.142": [
+    "Russian Federation",
+    "RU"
+  ],
+  "vpn578518022": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "59.7.242.139": [
+    "Korea Republic of",
+    "KR"
+  ],
+  "vpn736640607": [
+    "Japan",
+    "JP"
+  ],
+  "121.87.91.26": [
+    "Japan",
+    "JP"
+  ],
+  "vpn555510505": [
+    "Japan",
+    "JP"
+  ],
+  "60.95.184.243": [
+    "Japan",
+    "JP"
+  ],
+  "vpn482319525": [
+    "Japan",
+    "JP"
+  ],
+  "60.96.54.34": [
+    "Japan",
+    "JP"
+  ],
+  "vpn256634230": [
+    "Croatia (LOCAL Name: Hrvatska)",
+    "HR"
+  ],
+  "150.40.105.22": [
+    "Croatia (LOCAL Name: Hrvatska)",
+    "HR"
+  ],
+  "vpn363342659": [
+    "Croatia (LOCAL Name: Hrvatska)",
+    "HR"
+  ],
+  "150.40.105.8": [
+    "Croatia (LOCAL Name: Hrvatska)",
+    "HR"
   ]
 }
