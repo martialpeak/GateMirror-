@@ -70,10 +70,10 @@ Korea Republic of (KR) - sstp://dnBuODg0NTIxNDk4Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
 Korea Republic of (KR) - sstp://dnBuOTAwMTYzMzkyLm9wZW5ndy5uZXQ6MTQzNkB2cG46dnBu
 Korea Republic of (KR) - sstp://dnBuOTQyNzcyNTk5Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
 Latvia (LV) - sstp://dnBuNDkxMDY1NTYxLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
-Russia (RU) - sstp://dnBuMTY5NjUzNjMwLm9wZW5ndy5uZXQ6MTgwMEB2cG46dnBu
 Russia (RU) - sstp://dnBuNzQwMzQ2NjkxLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Russia (RU) - sstp://dnBuODUzOTgwNjA5Lm9wZW5ndy5uZXQ6MTMxM0B2cG46dnBu
 Russian Federation (RU) - sstp://dnBuMTIyNzE0NjcwLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
+Russian Federation (RU) - sstp://dnBuMTY5NjUzNjMwLm9wZW5ndy5uZXQ6MTgwMEB2cG46dnBu
 Russian Federation (RU) - sstp://dnBuMzU1MTM1ODUzLm9wZW5ndy5uZXQ6MTkyNEB2cG46dnBu
 Russian Federation (RU) - sstp://dnBuMzk3OTU1ODc2Lm9wZW5ndy5uZXQ6MTkzOEB2cG46dnBu
 Russian Federation (RU) - sstp://dnBuNDMyNjM2NDM5Lm9wZW5ndy5uZXQ6MTg1OEB2cG46dnBu
