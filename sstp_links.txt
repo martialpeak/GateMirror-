@@ -79,6 +79,7 @@ Korea Republic of (KR) - sstp://dnBuNDAzNzkwMDIwLm9wZW5ndy5uZXQ6MTgzM0B2cG46dnBu
 Korea Republic of (KR) - sstp://dnBuNDkzNDM1MTgzLm9wZW5ndy5uZXQ6MTgwOEB2cG46dnBu
 Korea Republic of (KR) - sstp://dnBuNTIxMDY1NTc0Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Korea Republic of (KR) - sstp://dnBuNjAyNTY4MTYyLm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
+Korea Republic of (KR) - sstp://dnBuNjU2MjEzODczLm9wZW5ndy5uZXQ6MTMyM0B2cG46dnBu
 Korea Republic of (KR) - sstp://dnBuNjY5MTU1Njc5Lm9wZW5ndy5uZXQ6NDQzQHZwbjp2cG4=
 Korea Republic of (KR) - sstp://dnBuODU5MDA1OTA1Lm9wZW5ndy5uZXQ6MTgwMEB2cG46dnBu
 Korea Republic of (KR) - sstp://dnBuODk4ODY2MTkzLm9wZW5ndy5uZXQ6MTQ0NkB2cG46dnBu
@@ -97,7 +98,6 @@ Russia (RU) - sstp://dnBuOTAxNzczNTQ5Lm9wZW5ndy5uZXQ6MTkzMkB2cG46dnBu
 Russian Federation (RU) - sstp://dnBuNjAzMjY2OTg5Lm9wZW5ndy5uZXQ6MTQ5N0B2cG46dnBu
 South Korea (KR) - sstp://dnBuMTI2NzEzNTAyLm9wZW5ndy5uZXQ6MTg5MUB2cG46dnBu
 South Korea (KR) - sstp://dnBuNTQxNDc0ODc0Lm9wZW5ndy5uZXQ6MTkyOUB2cG46dnBu
-South Korea (KR) - sstp://dnBuNjU2MjEzODczLm9wZW5ndy5uZXQ6MTMyM0B2cG46dnBu
 South Korea (KR) - sstp://dnBuNzY1MjM5Mzc4Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
 South Korea (KR) - sstp://dnBuNzg0NTMwMTg4Lm9wZW5ndy5uZXQ6OTk1QHZwbjp2cG4=
 South Korea (KR) - sstp://dnBuNzg5NDU0MzQ3Lm9wZW5ndy5uZXQ6MTMyNEB2cG46dnBu
