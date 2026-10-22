@@ -1,4 +1,4 @@
-name: Generate SSTP Links
+name: Generate SSTP and OpenVPN Links
 
 on:
   schedule:
@@ -20,13 +20,13 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Build sstp:// links with country names
+      - name: Build sstp:// and ovpn:// links with country names
         run: python3 build_sstp_links.py
 
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add sstp_links.txt country_cache.json docs/sstp_links.txt 2>/dev/null || git add sstp_links.txt country_cache.json
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update sstp links $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git add sstp_links.txt ovpn_links.txt ovpn-repo.txt ovpn-repo-names.txt openvpn_links.txt country_cache.json docs/ 2>/dev/null || git add -A
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update links (SSTP & OpenVPN) $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push

@@ -1,8 +1,14 @@
 #!/usr/bin/env python3
 """
-Fetches VPN Gate's official CSV (has country info) and the SSTP host list,
-matches them by hostname, resolves unknown hosts via DNS & GeoIP,
-and outputs sstp:// links labeled with country.
+Fetches VPN Gate's official CSV (has country info & OpenVPN configs)
+and the SSTP host list, matches them by hostname, resolves unknown hosts via DNS & GeoIP,
+and outputs:
+  - sstp:// links labeled with country:
+      sstp_links.txt, docs/sstp_links.txt
+  - ovpn:// links labeled with country:
+      ovpn-repo.txt, ovpn_links.txt, openvpn_links.txt (and in docs/)
+  - OVPN display names & endpoints:
+      ovpn-repo-names.txt (and in docs/)
 """
 import base64
 import csv
@@ -14,10 +20,12 @@ import urllib.request
 CSV_URL = "http://www.vpngate.net/api/iphone/"
 HOSTS_URL = "https://raw.githubusercontent.com/Delta-Kronecker/Vpn-Gate/refs/heads/main/sstp_hosts.txt"
 CACHE_FILE = "country_cache.json"
+LOCAL_CSV_CACHE = "vpngate_cache.csv"
 
 # Configure direct opener to bypass stale/broken local system proxies
 direct_opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
 urllib.request.install_opener(direct_opener)
+
 
 def fetch(url, data=None, headers=None, timeout=25):
     """
@@ -27,9 +35,10 @@ def fetch(url, data=None, headers=None, timeout=25):
     if headers:
         req_headers.update(headers)
     req = urllib.request.Request(url, data=data, headers=req_headers)
-    
+
     with direct_opener.open(req, timeout=timeout) as r:
         return r.read().decode("utf-8", errors="ignore")
+
 
 def load_cache():
     if os.path.exists(CACHE_FILE):
@@ -40,6 +49,7 @@ def load_cache():
             print(f"Warning: Failed to load cache: {e}")
     return {}
 
+
 def save_cache(cache):
     try:
         with open(CACHE_FILE, "w", encoding="utf-8") as f:
@@ -47,29 +57,104 @@ def save_cache(cache):
     except Exception as e:
         print(f"Warning: Failed to save cache: {e}")
 
-def build_country_map_from_csv():
+
+def parse_ovpn_profile(b64_str):
+    """
+    Decodes the OpenVPN Base64 config, validates it, and extracts metadata.
+    Returns (norm_b64, remote_host, remote_port, proto) or None if invalid.
+    """
+    try:
+        clean = "".join(b64_str.split())
+        raw_bytes = base64.b64decode(clean, validate=False)
+        if not raw_bytes or b"remote " not in raw_bytes:
+            return None
+
+        norm_b64 = base64.b64encode(raw_bytes).decode("ascii")
+        text = raw_bytes.decode("utf-8", errors="replace")
+
+        remote_host = None
+        remote_port = "443"
+        proto = "udp"
+
+        for line in text.splitlines():
+            s = line.strip()
+            if s.startswith("remote ") and remote_host is None:
+                parts = s.split()
+                if len(parts) >= 3:
+                    remote_host, remote_port = parts[1], parts[2]
+                    if len(parts) >= 4:
+                        proto = parts[3].lower()
+            elif s.startswith("proto "):
+                parts = s.split()
+                if len(parts) >= 2:
+                    proto = parts[1].lower()
+
+        return norm_b64, remote_host or "server", remote_port, proto
+    except Exception:
+        return None
+
+
+def fetch_and_parse_csv():
+    """
+    Fetches the VPN Gate CSV (with local disk fallback), parses country mapping
+    and extracts OpenVPN server profiles.
+    """
     country_map = {}
+    ovpn_raw_list = []
+    raw = None
+
     try:
         raw = fetch(CSV_URL)
-        lines = raw.splitlines()
-        start = 0
-        for i, line in enumerate(lines):
-            if line.startswith("#HostName"):
-                start = i
-                break
-        reader = csv.DictReader(lines[start:])
-        for row in reader:
-            host = (row.get("#HostName") or "").strip()
-            ip = (row.get("IP") or "").strip()
-            country_long = (row.get("CountryLong") or "Unknown").strip()
-            country_short = (row.get("CountryShort") or "??").strip()
-            if host and country_long != "Unknown":
-                country_map[host] = (country_long, country_short)
-            if ip and country_long != "Unknown":
-                country_map[ip] = (country_long, country_short)
+        # Save local copy for offline/fallback use
+        try:
+            with open(LOCAL_CSV_CACHE, "w", encoding="utf-8") as f:
+                f.write(raw)
+        except Exception:
+            pass
     except Exception as e:
-        print(f"Warning: Failed to fetch/parse VPN Gate CSV: {e}")
-    return country_map
+        print(f"Warning: Failed to fetch live VPN Gate CSV: {e}")
+        if os.path.exists(LOCAL_CSV_CACHE):
+            print(f"Loading cached CSV from {LOCAL_CSV_CACHE}...")
+            try:
+                with open(LOCAL_CSV_CACHE, "r", encoding="utf-8") as f:
+                    raw = f.read()
+            except Exception as read_err:
+                print(f"Warning: Failed to read local CSV cache: {read_err}")
+
+    if not raw:
+        return country_map, ovpn_raw_list
+
+    lines = raw.splitlines()
+    start = 0
+    for i, line in enumerate(lines):
+        if line.startswith("#HostName"):
+            start = i
+            break
+
+    reader = csv.DictReader(lines[start:])
+    for row in reader:
+        host = (row.get("#HostName") or "").strip()
+        ip = (row.get("IP") or "").strip()
+        country_long = (row.get("CountryLong") or "Unknown").strip()
+        country_short = (row.get("CountryShort") or "??").strip()
+
+        if host and country_long != "Unknown":
+            country_map[host] = (country_long, country_short)
+        if ip and country_long != "Unknown":
+            country_map[ip] = (country_long, country_short)
+
+        b64 = (row.get("OpenVPN_ConfigData_Base64") or "").strip()
+        if b64 and b64 != "*":
+            ovpn_raw_list.append({
+                "host": host,
+                "ip": ip,
+                "country_long": country_long,
+                "country_short": country_short,
+                "b64": b64,
+            })
+
+    return country_map, ovpn_raw_list
+
 
 def resolve_unknown_ips_batch(ips):
     """
@@ -98,58 +183,92 @@ def resolve_unknown_ips_batch(ips):
             print(f"Warning: Batch GeoIP request failed: {e}")
     return results
 
+
+def write_file_multi(rel_path, content):
+    """
+    Writes content to root rel_path and also to docs/rel_path if docs exists.
+    """
+    with open(rel_path, "w", encoding="utf-8", newline="\n") as f:
+        f.write(content)
+
+    if os.path.isdir("docs"):
+        docs_path = os.path.join("docs", rel_path)
+        os.makedirs(os.path.dirname(docs_path), exist_ok=True)
+        with open(docs_path, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+
+
 def main():
     cache = load_cache()
-    country_map = build_country_map_from_csv()
-    print(f"Loaded {len(country_map)} entries from live VPN Gate CSV")
+    country_map, ovpn_raw_list = fetch_and_parse_csv()
+    print(f"Loaded {len(country_map)} country mappings and {len(ovpn_raw_list)} OpenVPN candidates from VPN Gate CSV")
 
     # Update cache with live CSV data
     for k, v in country_map.items():
         cache[k] = list(v)
 
-    # Fetch SSTP host list
-    hosts_raw = fetch(HOSTS_URL)
+    # ----------------------------------------------------
+    # 1. Prepare SSTP hosts
+    # ----------------------------------------------------
     hosts_entries = []
     hosts_to_resolve = {}  # hostname -> ip
 
-    for line in hosts_raw.splitlines():
-        line = line.strip().replace("\r", "")
-        if not line:
-            continue
-        if ":" in line:
-            hostname, port = line.split(":", 1)
-        else:
-            hostname, port = line, "443"
+    try:
+        hosts_raw = fetch(HOSTS_URL)
+        for line in hosts_raw.splitlines():
+            line = line.strip().replace("\r", "")
+            if not line:
+                continue
+            if ":" in line:
+                hostname, port = line.split(":", 1)
+            else:
+                hostname, port = line, "443"
 
-        key = hostname.split(".")[0]
-        hosts_entries.append((hostname, port, key))
+            key = hostname.split(".")[0]
+            hosts_entries.append((hostname, port, key))
 
-        # If not known in country_map or cache, schedule for DNS + GeoIP
-        if key not in cache and hostname not in cache:
-            try:
-                ip = socket.gethostbyname(hostname)
-                hosts_to_resolve[hostname] = ip
-            except Exception:
-                pass
+            # If not known in country_map or cache, schedule for DNS + GeoIP
+            if key not in cache and hostname not in cache:
+                try:
+                    ip = socket.gethostbyname(hostname)
+                    hosts_to_resolve[hostname] = ip
+                except Exception:
+                    pass
+    except Exception as e:
+        print(f"Warning: Failed to fetch SSTP hosts: {e}")
 
+    # ----------------------------------------------------
+    # 2. Check any unresolved OpenVPN server IPs
+    # ----------------------------------------------------
+    for item in ovpn_raw_list:
+        c_long = item["country_long"]
+        ip = item["ip"]
+        if (not c_long or c_long == "Unknown") and ip and ip not in cache:
+            hosts_to_resolve[ip] = ip
+
+    # ----------------------------------------------------
+    # 3. Resolve unknown hosts/IPs via GeoIP batch
+    # ----------------------------------------------------
     if hosts_to_resolve:
-        print(f"Resolving {len(hosts_to_resolve)} unknown hosts via DNS & GeoIP batch...")
+        print(f"Resolving {len(hosts_to_resolve)} unknown endpoints via DNS & GeoIP batch...")
         unique_ips = list(set(hosts_to_resolve.values()))
         ip_geo_map = resolve_unknown_ips_batch(unique_ips)
 
-        for hostname, ip in hosts_to_resolve.items():
+        for endpoint, ip in hosts_to_resolve.items():
             if ip in ip_geo_map:
                 c_long, c_short = ip_geo_map[ip]
-                key = hostname.split(".")[0]
+                key = endpoint.split(".")[0]
                 cache[key] = [c_long, c_short]
-                cache[hostname] = [c_long, c_short]
+                cache[endpoint] = [c_long, c_short]
                 cache[ip] = [c_long, c_short]
 
-    output_lines = []
-    unknown_count = 0
+    # ----------------------------------------------------
+    # 4. Generate SSTP links
+    # ----------------------------------------------------
+    sstp_lines = []
+    sstp_unknown = 0
 
     for hostname, port, key in hosts_entries:
-        # Check cache/country_map
         if key in cache:
             country_long, country_short = cache[key]
         elif hostname in cache:
@@ -158,26 +277,80 @@ def main():
             country_long, country_short = country_map[key]
         else:
             country_long, country_short = ("Unknown", "??")
-            unknown_count += 1
+            sstp_unknown += 1
 
         payload = f"{hostname}:{port}@vpn:vpn"
         encoded = base64.b64encode(payload.encode()).decode()
-        output_lines.append(f"{country_long} ({country_short}) - sstp://{encoded}")
+        sstp_lines.append(f"{country_long} ({country_short}) - sstp://{encoded}")
 
-    # sort alphabetically by country for readability
-    output_lines.sort()
+    sstp_lines.sort()
 
-    with open("sstp_links.txt", "w", encoding="utf-8") as f:
-        f.write("\n".join(output_lines) + "\n")
+    write_file_multi("sstp_links.txt", "\n".join(sstp_lines) + "\n")
+    print(f"[SSTP] Wrote {len(sstp_lines)} entries (Unknown: {sstp_unknown}, Resolved: {len(sstp_lines) - sstp_unknown})")
 
-    # If docs folder exists, keep docs/sstp_links.txt updated as well
-    if os.path.isdir("docs"):
-        with open(os.path.join("docs", "sstp_links.txt"), "w", encoding="utf-8") as f:
-            f.write("\n".join(output_lines) + "\n")
+    # ----------------------------------------------------
+    # 5. Generate OpenVPN links (ovpn://)
+    # ----------------------------------------------------
+    ovpn_items = []
+    for item in ovpn_raw_list:
+        parsed = parse_ovpn_profile(item["b64"])
+        if not parsed:
+            continue
+        norm_b64, remote_host, remote_port, proto = parsed
 
+        # Resolve country
+        c_long = item["country_long"]
+        c_short = item["country_short"]
+        if not c_long or c_long == "Unknown":
+            if item["host"] in cache:
+                c_long, c_short = cache[item["host"]]
+            elif item["ip"] in cache:
+                c_long, c_short = cache[item["ip"]]
+            elif remote_host in cache:
+                c_long, c_short = cache[remote_host]
+
+        if not c_long or c_long == "Unknown":
+            c_long, c_short = ("Unknown", "??")
+
+        ovpn_items.append({
+            "country_long": c_long,
+            "country_short": c_short,
+            "norm_b64": norm_b64,
+            "remote_host": remote_host,
+            "remote_port": remote_port,
+            "proto": proto,
+        })
+
+    # Sort OpenVPN entries alphabetically by country, then host
+    ovpn_items.sort(key=lambda x: (x["country_long"], x["country_short"], x["remote_host"]))
+
+    ovpn_links = []
+    ovpn_names = []
+    for idx, item in enumerate(ovpn_items, 1):
+        c_label = f"{item['country_long']} ({item['country_short']})"
+        ovpn_links.append(f"{c_label} - ovpn://{item['norm_b64']}")
+        display_name = f"OVPN-{item['remote_host']}-{idx}"
+        ovpn_names.append(f"{display_name} | {c_label} | {item['remote_host']}:{item['remote_port']}/{item['proto']}")
+
+    ovpn_content = "\n".join(ovpn_links) + "\n"
+    ovpn_names_content = "\n".join(ovpn_names) + "\n"
+
+    # Write ovpn-repo.txt (matching f:\cloud\pur\rea-work\ovpn-link\ovpn-repo.txt)
+    write_file_multi("ovpn-repo.txt", ovpn_content)
+    # Write ovpn_links.txt & openvpn_links.txt for naming consistency with sstp_links.txt
+    write_file_multi("ovpn_links.txt", ovpn_content)
+    write_file_multi("openvpn_links.txt", ovpn_content)
+    # Write ovpn-repo-names.txt companion file
+    write_file_multi("ovpn-repo-names.txt", ovpn_names_content)
+
+    print(f"[OpenVPN] Wrote {len(ovpn_links)} entries to ovpn-repo.txt, ovpn_links.txt, and docs/")
+    print(f"[OpenVPN] Wrote {len(ovpn_names)} entries to ovpn-repo-names.txt")
+
+    # ----------------------------------------------------
+    # 6. Save cache
+    # ----------------------------------------------------
     save_cache(cache)
 
-    print(f"Wrote {len(output_lines)} entries (Unknown: {unknown_count}, Resolved: {len(output_lines) - unknown_count})")
 
 if __name__ == "__main__":
     main()
