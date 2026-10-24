@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Fetches VPN Gate's official CSV (has country info & OpenVPN configs)
-and the SSTP host list, matches them by hostname, resolves unknown hosts via DNS & GeoIP,
+Fetches VPN Gate's official CSV (has country info, OpenVPN configs & live SoftEther hosts)
+and supplementary SSTP host lists, resolves unknown endpoints via DNS & GeoIP,
 and outputs:
   - sstp:// links labeled with country:
       sstp_links.txt, docs/sstp_links.txt
@@ -27,7 +27,7 @@ direct_opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
 urllib.request.install_opener(direct_opener)
 
 
-def fetch(url, data=None, headers=None, timeout=25):
+def fetch(url, data=None, headers=None, timeout=15):
     """
     Fetches URL content using direct connection.
     """
@@ -96,11 +96,12 @@ def parse_ovpn_profile(b64_str):
 
 def fetch_and_parse_csv():
     """
-    Fetches the VPN Gate CSV (with local disk fallback), parses country mapping
-    and extracts OpenVPN server profiles.
+    Fetches the VPN Gate CSV (with local disk fallback), parses country mapping,
+    extracts active server hostnames for SSTP and OpenVPN server profiles.
     """
     country_map = {}
     ovpn_raw_list = []
+    csv_servers = []
     raw = None
 
     try:
@@ -122,7 +123,7 @@ def fetch_and_parse_csv():
                 print(f"Warning: Failed to read local CSV cache: {read_err}")
 
     if not raw:
-        return country_map, ovpn_raw_list
+        return country_map, ovpn_raw_list, csv_servers
 
     lines = raw.splitlines()
     start = 0
@@ -138,10 +139,17 @@ def fetch_and_parse_csv():
         country_long = (row.get("CountryLong") or "Unknown").strip()
         country_short = (row.get("CountryShort") or "??").strip()
 
-        if host and country_long != "Unknown":
-            country_map[host] = (country_long, country_short)
-        if ip and country_long != "Unknown":
-            country_map[ip] = (country_long, country_short)
+        if host and not host.startswith("*"):
+            csv_servers.append({
+                "host": host,
+                "ip": ip,
+                "country_long": country_long,
+                "country_short": country_short,
+            })
+            if country_long != "Unknown":
+                country_map[host] = (country_long, country_short)
+            if ip and country_long != "Unknown":
+                country_map[ip] = (country_long, country_short)
 
         b64 = (row.get("OpenVPN_ConfigData_Base64") or "").strip()
         if b64 and b64 != "*":
@@ -153,7 +161,7 @@ def fetch_and_parse_csv():
                 "b64": b64,
             })
 
-    return country_map, ovpn_raw_list
+    return country_map, ovpn_raw_list, csv_servers
 
 
 def resolve_unknown_ips_batch(ips):
@@ -199,43 +207,78 @@ def write_file_multi(rel_path, content):
 
 
 def main():
+    socket.setdefaulttimeout(3)
     cache = load_cache()
-    country_map, ovpn_raw_list = fetch_and_parse_csv()
-    print(f"Loaded {len(country_map)} country mappings and {len(ovpn_raw_list)} OpenVPN candidates from VPN Gate CSV")
+    country_map, ovpn_raw_list, csv_servers = fetch_and_parse_csv()
+    print(f"Loaded {len(country_map)} country mappings, {len(csv_servers)} live SoftEther servers and {len(ovpn_raw_list)} OpenVPN candidates from VPN Gate CSV")
 
     # Update cache with live CSV data
     for k, v in country_map.items():
         cache[k] = list(v)
 
     # ----------------------------------------------------
-    # 1. Prepare SSTP hosts
+    # 1. Prepare SSTP hosts:
+    #    First, collect directly from live VPN Gate CSV (always fresh!)
     # ----------------------------------------------------
-    hosts_entries = []
+    sstp_hosts_dict = {}  # normalized key -> (hostname, port, country_long, country_short)
     hosts_to_resolve = {}  # hostname -> ip
 
+    for item in csv_servers:
+        host = item["host"]
+        if not host:
+            continue
+        domain = f"{host}.opengw.net" if ".opengw.net" not in host else host
+        norm_key = domain.lower()
+        sstp_hosts_dict[norm_key] = (domain, "443", item["country_long"], item["country_short"])
+
+    # ----------------------------------------------------
+    # Next, merge supplementary hosts from HOSTS_URL (if reachable)
+    # ----------------------------------------------------
     try:
         hosts_raw = fetch(HOSTS_URL)
         for line in hosts_raw.splitlines():
             line = line.strip().replace("\r", "")
-            if not line:
+            # Skip comments, section headers, or empty lines
+            if not line or line.startswith("#") or line.startswith("=") or "===" in line:
                 continue
             if ":" in line:
                 hostname, port = line.split(":", 1)
             else:
                 hostname, port = line, "443"
 
-            key = hostname.split(".")[0]
-            hosts_entries.append((hostname, port, key))
+            hostname = hostname.strip()
+            port = port.strip()
+            if not hostname or "." not in hostname:
+                continue
 
-            # If not known in country_map or cache, schedule for DNS + GeoIP
-            if key not in cache and hostname not in cache:
-                try:
-                    ip = socket.gethostbyname(hostname)
-                    hosts_to_resolve[hostname] = ip
-                except Exception:
-                    pass
+            norm_key = hostname.lower()
+            if norm_key in sstp_hosts_dict:
+                # If custom non-standard port was specified in hosts list, update port
+                if port != "443":
+                    orig_h, _, c_l, c_s = sstp_hosts_dict[norm_key]
+                    sstp_hosts_dict[norm_key] = (orig_h, port, c_l, c_s)
+            else:
+                # New host not in CSV, add it
+                key = hostname.split(".")[0]
+                c_l, c_s = ("Unknown", "??")
+                if key in cache:
+                    c_l, c_s = cache[key]
+                elif hostname in cache:
+                    c_l, c_s = cache[hostname]
+                elif key in country_map:
+                    c_l, c_s = country_map[key]
+
+                sstp_hosts_dict[norm_key] = (hostname, port, c_l, c_s)
+
+                # If country still unknown, schedule for DNS/GeoIP resolution
+                if c_l == "Unknown" and key not in cache and hostname not in cache:
+                    try:
+                        ip = socket.gethostbyname(hostname)
+                        hosts_to_resolve[hostname] = ip
+                    except Exception:
+                        pass
     except Exception as e:
-        print(f"Warning: Failed to fetch SSTP hosts: {e}")
+        print(f"Warning: Failed to fetch supplementary SSTP hosts: {e}")
 
     # ----------------------------------------------------
     # 2. Check any unresolved OpenVPN server IPs
@@ -268,16 +311,18 @@ def main():
     sstp_lines = []
     sstp_unknown = 0
 
-    for hostname, port, key in hosts_entries:
-        if key in cache:
-            country_long, country_short = cache[key]
-        elif hostname in cache:
-            country_long, country_short = cache[hostname]
-        elif key in country_map:
-            country_long, country_short = country_map[key]
-        else:
-            country_long, country_short = ("Unknown", "??")
-            sstp_unknown += 1
+    for norm_key, (hostname, port, country_long, country_short) in sstp_hosts_dict.items():
+        key = hostname.split(".")[0]
+        if not country_long or country_long == "Unknown":
+            if key in cache:
+                country_long, country_short = cache[key]
+            elif hostname in cache:
+                country_long, country_short = cache[hostname]
+            elif key in country_map:
+                country_long, country_short = country_map[key]
+            else:
+                country_long, country_short = ("Unknown", "??")
+                sstp_unknown += 1
 
         payload = f"{hostname}:{port}@vpn:vpn"
         encoded = base64.b64encode(payload.encode()).decode()
