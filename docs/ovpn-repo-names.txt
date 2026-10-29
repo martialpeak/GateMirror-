@@ -1,97 +1,97 @@
-OVPN-74.122.88.200-1 | Grenada (GD) | 74.122.88.200:443/tcp
-OVPN-112.139.139.111-2 | Japan (JP) | 112.139.139.111:1207/tcp
-OVPN-112.68.148.47-3 | Japan (JP) | 112.68.148.47:1774/tcp
-OVPN-113.154.67.10-4 | Japan (JP) | 113.154.67.10:1944/tcp
-OVPN-115.179.206.241-5 | Japan (JP) | 115.179.206.241:443/tcp
-OVPN-118.105.5.203-6 | Japan (JP) | 118.105.5.203:1465/tcp
-OVPN-118.159.28.138-7 | Japan (JP) | 118.159.28.138:1326/tcp
-OVPN-124.100.138.216-8 | Japan (JP) | 124.100.138.216:1496/tcp
-OVPN-126.76.96.220-9 | Japan (JP) | 126.76.96.220:1780/tcp
-OVPN-126.88.122.179-10 | Japan (JP) | 126.88.122.179:1891/tcp
-OVPN-131.147.158.37-11 | Japan (JP) | 131.147.158.37:1831/udp
-OVPN-133.106.193.124-12 | Japan (JP) | 133.106.193.124:1992/udp
-OVPN-138.64.202.35-13 | Japan (JP) | 138.64.202.35:39517/udp
-OVPN-14.132.92.47-14 | Japan (JP) | 14.132.92.47:1640/tcp
-OVPN-143.189.35.33-15 | Japan (JP) | 143.189.35.33:1195/udp
-OVPN-180.196.98.244-16 | Japan (JP) | 180.196.98.244:1940/tcp
-OVPN-219.100.37.126-17 | Japan (JP) | 219.100.37.126:443/tcp
-OVPN-219.100.37.163-18 | Japan (JP) | 219.100.37.163:443/tcp
-OVPN-219.100.37.166-19 | Japan (JP) | 219.100.37.166:443/tcp
-OVPN-219.100.37.202-20 | Japan (JP) | 219.100.37.202:443/tcp
-OVPN-219.100.37.22-21 | Japan (JP) | 219.100.37.22:443/tcp
-OVPN-219.100.37.221-22 | Japan (JP) | 219.100.37.221:443/tcp
-OVPN-219.100.37.223-23 | Japan (JP) | 219.100.37.223:443/tcp
-OVPN-219.100.37.24-24 | Japan (JP) | 219.100.37.24:443/tcp
-OVPN-219.100.37.32-25 | Japan (JP) | 219.100.37.32:443/tcp
-OVPN-219.100.37.55-26 | Japan (JP) | 219.100.37.55:443/tcp
-OVPN-219.100.37.90-27 | Japan (JP) | 219.100.37.90:443/tcp
-OVPN-219.100.37.93-28 | Japan (JP) | 219.100.37.93:443/tcp
-OVPN-220.57.96.201-29 | Japan (JP) | 220.57.96.201:1946/tcp
-OVPN-221.45.75.172-30 | Japan (JP) | 221.45.75.172:1412/tcp
-OVPN-222.147.5.142-31 | Japan (JP) | 222.147.5.142:1711/tcp
-OVPN-222.150.22.182-32 | Japan (JP) | 222.150.22.182:1778/tcp
-OVPN-42.144.229.118-33 | Japan (JP) | 42.144.229.118:1877/tcp
-OVPN-60.126.217.205-34 | Japan (JP) | 60.126.217.205:1558/tcp
-OVPN-60.141.30.170-35 | Japan (JP) | 60.141.30.170:1516/tcp
-OVPN-60.141.52.65-36 | Japan (JP) | 60.141.52.65:1318/tcp
-OVPN-60.36.27.254-37 | Japan (JP) | 60.36.27.254:1475/tcp
-OVPN-60.91.157.48-38 | Japan (JP) | 60.91.157.48:1956/tcp
-OVPN-1.220.254.251-39 | Korea Republic of (KR) | 1.220.254.251:1947/tcp
-OVPN-1.224.195.110-40 | Korea Republic of (KR) | 1.224.195.110:1568/tcp
-OVPN-1.228.233.199-41 | Korea Republic of (KR) | 1.228.233.199:1464/tcp
-OVPN-1.230.209.219-42 | Korea Republic of (KR) | 1.230.209.219:995/tcp
-OVPN-1.234.177.29-43 | Korea Republic of (KR) | 1.234.177.29:1815/tcp
-OVPN-1.241.129.177-44 | Korea Republic of (KR) | 1.241.129.177:1950/tcp
-OVPN-112.166.16.155-45 | Korea Republic of (KR) | 112.166.16.155:1900/tcp
-OVPN-116.123.14.251-46 | Korea Republic of (KR) | 116.123.14.251:1236/tcp
-OVPN-118.39.44.123-47 | Korea Republic of (KR) | 118.39.44.123:995/tcp
-OVPN-119.192.210.134-48 | Korea Republic of (KR) | 119.192.210.134:1403/tcp
-OVPN-121.131.159.91-49 | Korea Republic of (KR) | 121.131.159.91:1791/tcp
-OVPN-121.143.216.234-50 | Korea Republic of (KR) | 121.143.216.234:1812/tcp
-OVPN-121.158.222.27-51 | Korea Republic of (KR) | 121.158.222.27:1381/tcp
-OVPN-121.161.33.240-52 | Korea Republic of (KR) | 121.161.33.240:1386/tcp
-OVPN-121.185.133.117-53 | Korea Republic of (KR) | 121.185.133.117:1664/tcp
-OVPN-122.128.209.73-54 | Korea Republic of (KR) | 122.128.209.73:1602/tcp
-OVPN-122.36.8.16-55 | Korea Republic of (KR) | 122.36.8.16:1327/tcp
-OVPN-124.61.46.28-56 | Korea Republic of (KR) | 124.61.46.28:1800/tcp
-OVPN-125.128.18.93-57 | Korea Republic of (KR) | 125.128.18.93:1780/tcp
-OVPN-14.40.125.1-58 | Korea Republic of (KR) | 14.40.125.1:995/tcp
-OVPN-14.52.9.17-59 | Korea Republic of (KR) | 14.52.9.17:1786/tcp
-OVPN-141.223.28.225-60 | Korea Republic of (KR) | 141.223.28.225:995/tcp
-OVPN-183.104.99.71-61 | Korea Republic of (KR) | 183.104.99.71:1252/tcp
-OVPN-210.104.96.99-62 | Korea Republic of (KR) | 210.104.96.99:1342/tcp
-OVPN-211.224.74.65-63 | Korea Republic of (KR) | 211.224.74.65:1783/tcp
-OVPN-211.226.191.120-64 | Korea Republic of (KR) | 211.226.191.120:995/tcp
-OVPN-211.228.134.38-65 | Korea Republic of (KR) | 211.228.134.38:1879/tcp
-OVPN-211.39.74.124-66 | Korea Republic of (KR) | 211.39.74.124:1964/tcp
-OVPN-218.51.164.217-67 | Korea Republic of (KR) | 218.51.164.217:995/tcp
-OVPN-219.249.193.179-68 | Korea Republic of (KR) | 219.249.193.179:1556/tcp
-OVPN-220.123.64.32-69 | Korea Republic of (KR) | 220.123.64.32:995/tcp
-OVPN-220.77.208.68-70 | Korea Republic of (KR) | 220.77.208.68:1338/tcp
-OVPN-220.84.162.134-71 | Korea Republic of (KR) | 220.84.162.134:1924/tcp
-OVPN-221.138.46.130-72 | Korea Republic of (KR) | 221.138.46.130:1210/tcp
-OVPN-222.102.95.219-73 | Korea Republic of (KR) | 222.102.95.219:995/tcp
-OVPN-222.120.134.151-74 | Korea Republic of (KR) | 222.120.134.151:1918/tcp
-OVPN-222.232.165.58-75 | Korea Republic of (KR) | 222.232.165.58:1480/tcp
-OVPN-27.115.158.58-76 | Korea Republic of (KR) | 27.115.158.58:1311/tcp
-OVPN-39.119.95.106-77 | Korea Republic of (KR) | 39.119.95.106:1493/tcp
-OVPN-39.122.7.147-78 | Korea Republic of (KR) | 39.122.7.147:995/tcp
-OVPN-58.122.63.92-79 | Korea Republic of (KR) | 58.122.63.92:1794/tcp
-OVPN-59.10.57.138-80 | Korea Republic of (KR) | 59.10.57.138:995/tcp
-OVPN-59.19.56.104-81 | Korea Republic of (KR) | 59.19.56.104:1731/tcp
-OVPN-59.9.33.192-82 | Korea Republic of (KR) | 59.9.33.192:1934/tcp
-OVPN-61.109.57.235-83 | Korea Republic of (KR) | 61.109.57.235:995/tcp
-OVPN-187.138.210.20-84 | Mexico (MX) | 187.138.210.20:995/tcp
-OVPN-38.25.15.30-85 | Peru (PE) | 38.25.15.30:7989/udp
-OVPN-176.208.32.77-86 | Russian Federation (RU) | 176.208.32.77:6249/udp
-OVPN-80.89.8.93-87 | Russian Federation (RU) | 80.89.8.93:1276/tcp
-OVPN-88.204.24.168-88 | Russian Federation (RU) | 88.204.24.168:1347/tcp
-OVPN-95.191.221.197-89 | Russian Federation (RU) | 95.191.221.197:1820/tcp
-OVPN-95.70.75.118-90 | Russian Federation (RU) | 95.70.75.118:1829/tcp
-OVPN-183.88.52.25-91 | Thailand (TH) | 183.88.52.25:1332/udp
-OVPN-223.206.43.152-92 | Thailand (TH) | 223.206.43.152:1612/tcp
-OVPN-27.130.27.196-93 | Thailand (TH) | 27.130.27.196:1472/udp
-OVPN-27.130.85.194-94 | Thailand (TH) | 27.130.85.194:1438/udp
-OVPN-49.48.216.248-95 | Thailand (TH) | 49.48.216.248:1235/udp
-OVPN-73.112.247.31-96 | United States (US) | 73.112.247.31:1762/tcp
-OVPN-1.55.74.184-97 | Viet Nam (VN) | 1.55.74.184:1443/udp
+OVPN-70.79.233.9-1 | Canada (CA) | 70.79.233.9:995/tcp
+OVPN-106.139.165.4-2 | Japan (JP) | 106.139.165.4:1524/tcp
+OVPN-106.160.78.16-3 | Japan (JP) | 106.160.78.16:1542/tcp
+OVPN-110.67.241.211-4 | Japan (JP) | 110.67.241.211:1236/tcp
+OVPN-113.154.223.222-5 | Japan (JP) | 113.154.223.222:1498/tcp
+OVPN-114.16.18.46-6 | Japan (JP) | 114.16.18.46:1223/tcp
+OVPN-126.111.148.150-7 | Japan (JP) | 126.111.148.150:1436/tcp
+OVPN-126.27.127.9-8 | Japan (JP) | 126.27.127.9:1629/tcp
+OVPN-126.66.190.27-9 | Japan (JP) | 126.66.190.27:1659/tcp
+OVPN-130.62.144.252-10 | Japan (JP) | 130.62.144.252:14145/udp
+OVPN-133.114.223.195-11 | Japan (JP) | 133.114.223.195:1519/tcp
+OVPN-133.149.88.14-12 | Japan (JP) | 133.149.88.14:1489/tcp
+OVPN-133.32.156.33-13 | Japan (JP) | 133.32.156.33:3223/udp
+OVPN-138.64.112.97-14 | Japan (JP) | 138.64.112.97:61535/udp
+OVPN-153.194.200.162-15 | Japan (JP) | 153.194.200.162:1265/udp
+OVPN-164.70.179.124-16 | Japan (JP) | 164.70.179.124:1433/tcp
+OVPN-175.177.44.198-17 | Japan (JP) | 175.177.44.198:1836/udp
+OVPN-210.194.189.168-18 | Japan (JP) | 210.194.189.168:1718/udp
+OVPN-211.2.107.49-19 | Japan (JP) | 211.2.107.49:1382/tcp
+OVPN-219.100.37.114-20 | Japan (JP) | 219.100.37.114:443/tcp
+OVPN-219.100.37.121-21 | Japan (JP) | 219.100.37.121:443/tcp
+OVPN-219.100.37.127-22 | Japan (JP) | 219.100.37.127:443/tcp
+OVPN-219.100.37.162-23 | Japan (JP) | 219.100.37.162:443/tcp
+OVPN-219.100.37.180-24 | Japan (JP) | 219.100.37.180:443/tcp
+OVPN-219.100.37.181-25 | Japan (JP) | 219.100.37.181:443/tcp
+OVPN-219.100.37.187-26 | Japan (JP) | 219.100.37.187:443/tcp
+OVPN-219.100.37.192-27 | Japan (JP) | 219.100.37.192:443/tcp
+OVPN-219.100.37.30-28 | Japan (JP) | 219.100.37.30:443/tcp
+OVPN-219.100.37.59-29 | Japan (JP) | 219.100.37.59:443/tcp
+OVPN-219.63.62.252-30 | Japan (JP) | 219.63.62.252:1255/tcp
+OVPN-220.147.70.29-31 | Japan (JP) | 220.147.70.29:1703/tcp
+OVPN-223.135.36.132-32 | Japan (JP) | 223.135.36.132:1195/udp
+OVPN-39.111.4.69-33 | Japan (JP) | 39.111.4.69:1757/tcp
+OVPN-42.146.126.246-34 | Japan (JP) | 42.146.126.246:1311/tcp
+OVPN-58.70.120.185-35 | Japan (JP) | 58.70.120.185:1621/tcp
+OVPN-58.89.126.136-36 | Japan (JP) | 58.89.126.136:1382/udp
+OVPN-60.151.222.133-37 | Japan (JP) | 60.151.222.133:1356/tcp
+OVPN-60.61.129.1-38 | Japan (JP) | 60.61.129.1:1783/tcp
+OVPN-61.27.120.206-39 | Japan (JP) | 61.27.120.206:1785/tcp
+OVPN-61.86.88.175-40 | Japan (JP) | 61.86.88.175:1445/tcp
+OVPN-92.202.89.138-41 | Japan (JP) | 92.202.89.138:1808/tcp
+OVPN-1.245.64.52-42 | Korea Republic of (KR) | 1.245.64.52:1381/tcp
+OVPN-112.173.198.136-43 | Korea Republic of (KR) | 112.173.198.136:1662/tcp
+OVPN-112.186.85.168-44 | Korea Republic of (KR) | 112.186.85.168:995/tcp
+OVPN-114.200.185.104-45 | Korea Republic of (KR) | 114.200.185.104:995/tcp
+OVPN-118.34.211.114-46 | Korea Republic of (KR) | 118.34.211.114:995/tcp
+OVPN-119.207.13.123-47 | Korea Republic of (KR) | 119.207.13.123:1845/tcp
+OVPN-121.140.107.24-48 | Korea Republic of (KR) | 121.140.107.24:1321/tcp
+OVPN-121.149.110.86-49 | Korea Republic of (KR) | 121.149.110.86:995/tcp
+OVPN-121.167.217.123-50 | Korea Republic of (KR) | 121.167.217.123:1495/tcp
+OVPN-123.141.6.30-51 | Korea Republic of (KR) | 123.141.6.30:995/tcp
+OVPN-125.133.126.137-52 | Korea Republic of (KR) | 125.133.126.137:1981/tcp
+OVPN-125.133.234.181-53 | Korea Republic of (KR) | 125.133.234.181:995/tcp
+OVPN-14.35.21.250-54 | Korea Republic of (KR) | 14.35.21.250:995/tcp
+OVPN-14.46.82.91-55 | Korea Republic of (KR) | 14.46.82.91:995/tcp
+OVPN-175.198.199.84-56 | Korea Republic of (KR) | 175.198.199.84:995/tcp
+OVPN-180.182.100.167-57 | Korea Republic of (KR) | 180.182.100.167:995/tcp
+OVPN-180.65.73.26-58 | Korea Republic of (KR) | 180.65.73.26:1242/tcp
+OVPN-183.102.100.152-59 | Korea Republic of (KR) | 183.102.100.152:995/tcp
+OVPN-210.104.211.222-60 | Korea Republic of (KR) | 210.104.211.222:1927/tcp
+OVPN-210.113.225.149-61 | Korea Republic of (KR) | 210.113.225.149:1468/tcp
+OVPN-211.226.105.74-62 | Korea Republic of (KR) | 211.226.105.74:1444/tcp
+OVPN-220.77.208.68-63 | Korea Republic of (KR) | 220.77.208.68:1338/tcp
+OVPN-220.86.142.246-64 | Korea Republic of (KR) | 220.86.142.246:1793/tcp
+OVPN-220.95.248.132-65 | Korea Republic of (KR) | 220.95.248.132:995/tcp
+OVPN-221.146.158.71-66 | Korea Republic of (KR) | 221.146.158.71:995/tcp
+OVPN-221.147.62.73-67 | Korea Republic of (KR) | 221.147.62.73:1879/tcp
+OVPN-221.154.201.165-68 | Korea Republic of (KR) | 221.154.201.165:1681/tcp
+OVPN-222.102.227.38-69 | Korea Republic of (KR) | 222.102.227.38:995/tcp
+OVPN-222.108.241.190-70 | Korea Republic of (KR) | 222.108.241.190:1403/tcp
+OVPN-222.112.63.117-71 | Korea Republic of (KR) | 222.112.63.117:1212/tcp
+OVPN-222.99.195.19-72 | Korea Republic of (KR) | 222.99.195.19:1752/tcp
+OVPN-27.119.130.58-73 | Korea Republic of (KR) | 27.119.130.58:1338/tcp
+OVPN-42.82.211.88-74 | Korea Republic of (KR) | 42.82.211.88:995/tcp
+OVPN-59.86.240.113-75 | Korea Republic of (KR) | 59.86.240.113:1575/tcp
+OVPN-217.138.212.62-76 | Romania (RO) | 217.138.212.62:443/tcp
+OVPN-31.207.182.212-77 | Russian Federation (RU) | 31.207.182.212:1578/tcp
+OVPN-31.207.182.212-78 | Russian Federation (RU) | 31.207.182.212:1754/tcp
+OVPN-37.22.115.191-79 | Russian Federation (RU) | 37.22.115.191:1955/tcp
+OVPN-46.183.128.211-80 | Russian Federation (RU) | 46.183.128.211:1857/tcp
+OVPN-5.143.19.164-81 | Russian Federation (RU) | 5.143.19.164:1577/tcp
+OVPN-77.82.17.106-82 | Russian Federation (RU) | 77.82.17.106:1205/tcp
+OVPN-79.105.249.93-83 | Russian Federation (RU) | 79.105.249.93:1299/tcp
+OVPN-88.135.118.247-84 | Russian Federation (RU) | 88.135.118.247:32925/udp
+OVPN-90.154.70.206-85 | Russian Federation (RU) | 90.154.70.206:10131/udp
+OVPN-94.242.169.207-86 | Russian Federation (RU) | 94.242.169.207:21544/udp
+OVPN-94.245.151.162-87 | Russian Federation (RU) | 94.245.151.162:3693/udp
+OVPN-94.253.101.177-88 | Russian Federation (RU) | 94.253.101.177:21823/udp
+OVPN-95.110.64.79-89 | Russian Federation (RU) | 95.110.64.79:1400/tcp
+OVPN-95.191.221.197-90 | Russian Federation (RU) | 95.191.221.197:1820/tcp
+OVPN-95.53.86.72-91 | Russian Federation (RU) | 95.53.86.72:1701/tcp
+OVPN-101.51.88.110-92 | Thailand (TH) | 101.51.88.110:1892/tcp
+OVPN-182.53.204.127-93 | Thailand (TH) | 182.53.204.127:1486/udp
+OVPN-223.206.240.27-94 | Thailand (TH) | 223.206.240.27:1608/udp
+OVPN-223.206.240.27-95 | Thailand (TH) | 223.206.240.27:1654/udp
+OVPN-27.130.217.148-96 | Thailand (TH) | 27.130.217.148:1452/udp
+OVPN-103.67.199.89-97 | Viet Nam (VN) | 103.67.199.89:995/tcp
